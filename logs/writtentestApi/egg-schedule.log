@@ -1,0 +1,57 @@
+2019-10-19 10:14:02,212 INFO 5303 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-19 10:14:02,212 INFO 5303 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-19 10:14:02,212 INFO 5303 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-19 10:14:02,883 INFO 5287 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65757121ms at 2019-10-20 04:30:00.004
+2019-10-19 10:14:02,884 INFO 5287 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49557117ms at 2019-10-20 00:00:00.001
+2019-10-19 10:14:02,884 INFO 5287 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49558116ms at 2019-10-20 00:00:01.000
+2019-10-21 19:07:40,824 INFO 8705 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-21 19:07:40,824 INFO 8705 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-21 19:07:40,824 INFO 8705 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-21 19:07:41,449 INFO 8697 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 33738554ms at 2019-10-22 04:30:00.003
+2019-10-21 19:07:41,449 INFO 8697 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 17538551ms at 2019-10-22 00:00:00.000
+2019-10-21 19:07:41,449 INFO 8697 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 17539551ms at 2019-10-22 00:00:01.000
+2019-10-24 16:04:21,697 INFO 14338 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-24 16:04:21,697 INFO 14338 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-10-24 16:04:21,697 INFO 14338 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-24 16:04:22,307 INFO 14327 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44737696ms at 2019-10-25 04:30:00.003
+2019-10-24 16:04:22,307 INFO 14327 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28537693ms at 2019-10-25 00:00:00.000
+2019-10-24 16:04:22,308 INFO 14327 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28538692ms at 2019-10-25 00:00:01.000
+2019-11-15 20:59:09,838 INFO 24885 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-15 20:59:09,838 INFO 24885 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-15 20:59:09,838 INFO 24885 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-15 20:59:10,822 INFO 24873 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27049183ms at 2019-11-16 04:30:00.005
+2019-11-15 20:59:10,822 INFO 24873 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 10849178ms at 2019-11-16 00:00:00.000
+2019-11-15 20:59:10,822 INFO 24873 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10850178ms at 2019-11-16 00:00:01.000
+2019-11-15 21:00:32,523 INFO 24937 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-15 21:00:32,523 INFO 24937 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-15 21:00:32,523 INFO 24937 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-16 14:13:15,175 INFO 23742 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-16 14:13:15,175 INFO 23742 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-16 14:13:15,175 INFO 23742 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-16 14:13:16,102 INFO 23730 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51403902ms at 2019-11-17 04:30:00.004
+2019-11-16 14:13:16,103 INFO 23730 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35203897ms at 2019-11-17 00:00:00.000
+2019-11-16 14:13:16,104 INFO 23730 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35204897ms at 2019-11-17 00:00:01.001
+2019-11-16 14:30:52,270 INFO 24816 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-16 14:30:52,270 INFO 24816 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-16 14:30:52,270 INFO 24816 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-16 14:30:53,184 INFO 24807 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50346820ms at 2019-11-17 04:30:00.004
+2019-11-16 14:30:53,185 INFO 24807 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34146816ms at 2019-11-17 00:00:00.001
+2019-11-16 14:30:53,186 INFO 24807 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34147815ms at 2019-11-17 00:00:01.001
+2019-11-16 16:09:32,475 INFO 29785 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-16 16:09:32,475 INFO 29785 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-16 16:09:32,476 INFO 29785 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-16 16:09:33,428 INFO 29772 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44426578ms at 2019-11-17 04:30:00.006
+2019-11-16 16:09:33,429 INFO 29772 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28226572ms at 2019-11-17 00:00:00.001
+2019-11-16 16:09:33,429 INFO 29772 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28227571ms at 2019-11-17 00:00:01.000
+2019-11-18 18:45:56,834 INFO 20246 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-18 18:45:56,834 INFO 20246 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-18 18:45:56,834 INFO 20246 [egg-schedule]: register schedule /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-18 18:45:57,781 INFO 20237 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35042224ms at 2019-11-19 04:30:00.005
+2019-11-18 18:45:57,782 INFO 20237 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18842218ms at 2019-11-19 00:00:00.000
+2019-11-18 18:45:57,782 INFO 20237 [Timer] /Users/vinsen/Desktop/node/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18843218ms at 2019-11-19 00:00:01.000
+2019-11-19 20:42:06,925 INFO 28952 [Timer] /Users/fullwin/Downloads/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 28073077ms at 2019-11-20 04:30:00.002
+2019-11-19 20:42:06,925 INFO 28952 [Timer] /Users/fullwin/Downloads/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11873075ms at 2019-11-20 00:00:00.000
+2019-11-19 20:42:06,925 INFO 28952 [Timer] /Users/fullwin/Downloads/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11874075ms at 2019-11-20 00:00:01.000
+2019-11-19 20:42:06,106 INFO 28956 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-19 20:42:06,106 INFO 28956 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-19 20:42:06,106 INFO 28956 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

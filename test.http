@@ -1,0 +1,24 @@
+
+PUT http://127.0.0.1:7001/updateCandidateStartTime HTTP/1.1
+content-type: application/json
+
+{"id" : 18, "startTime": "Tue Nov 12 2019 15:45:24 GMT+0800 (中国标准时间)"}
+
+###
+
+get http://127.0.0.1:7001/getAnswersByCandidateId?candidateId=18 HTTP/1.1
+
+###
+DELETE http://192.168.31.161:7001/deleteQuestion?id=16 HTTP/1.1
+
+
+###
+PUT http://127.0.0.1:7001/updateAnswer HTTP/1.1
+content-type: application/json
+
+[{"id": 101, "answerContent": "Fuck!!!!"},
+{"id": 102, "answerContent": "Fuck aaaa!!!!"}]
+
+
+###
+GET http://127.0.0.1:7001/getQuestionsBasedOnType?questionType=1

@@ -1,0 +1,922 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "*"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-session/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-security/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-jsonp/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-onerror/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-i18n/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-watcher/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-schedule/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-multipart/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-development/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-logrotator/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-static/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-view/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-cors/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-sequelize/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-swagger2/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/locales",
+        "/Users/fullwin/Downloads/writtentestApi/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 1572864000,
+      "files": 10,
+      "fileExtensions": [
+        ".foo",
+        ".apk",
+        ".rar",
+        ".zip",
+        ".js",
+        ".html",
+        ".css",
+        ".doc",
+        ".docx",
+        ".apk",
+        ".ipa"
+      ],
+      "whitelist": null,
+      "tmpdir": "/var/folders/hp/h1nzrbld2hj6t5qrbk970xfw0000gn/T/egg-multipart-tmp/writtentestApi",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/fullwin/Downloads/writtentestApi/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Users/fullwin/Downloads/writtentestApi/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "cors": {
+      "allowMethods": "GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS",
+      "origin": "<Function corsOrigin>"
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "writtentest",
+      "host": "43.243.51.47",
+      "port": 3306,
+      "username": "writtentest",
+      "password": "<String len: 16>"
+    },
+    "swagger2": {
+      "base": {
+        "schemes": [
+          "http"
+        ],
+        "host": "127.0.0.1:7001",
+        "basePath": "/",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "info": {
+          "description": "this is a test swagger-ui html",
+          "version": "1.0.0",
+          "title": "test",
+          "contact": {
+            "email": "syfubest@gmail.com"
+          },
+          "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/license/LICENSE-2.0.html"
+          }
+        },
+        "tags": [
+          {
+            "name": "auth",
+            "description": "登录注册"
+          },
+          {
+            "name": "app",
+            "description": "app相关"
+          },
+          {
+            "name": "admin",
+            "description": "Admin desc"
+          },
+          {
+            "name": "role",
+            "description": "Role desc"
+          }
+        ],
+        "definitions": {},
+        "securityDefinitions": {
+          "Bearer": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+          }
+        },
+        "paths": {
+          "/register": {
+            "post": {
+              "tags": [
+                "注册"
+              ],
+              "summary": "注册用户",
+              "description": "",
+              "parameters": [
+                {
+                  "in": "body",
+                  "name": "body",
+                  "description": "用户注册信息",
+                  "required": true,
+                  "schema": {
+                    "type": "object",
+                    "required": [
+                      "userName",
+                      "userEmail",
+                      "pwdGroup"
+                    ],
+                    "properties": {
+                      "userName": {
+                        "type": "string",
+                        "description": "用户名"
+                      },
+                      "userEmail": {
+                        "type": "string",
+                        "description": "用户邮箱"
+                      },
+                      "pwdGroup": {
+                        "type": "object",
+                        "required": [
+                          "pwd",
+                          "rePwd"
+                        ],
+                        "properties": {
+                          "pwd": {
+                            "type": "string",
+                            "description": "第一次密码"
+                          },
+                          "rePwd": {
+                            "type": "string",
+                            "description": "第一次密码"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "SUCCEED",
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "number",
+                        "description": "注册成功状态码"
+                      },
+                      "msg": {
+                        "type": "string",
+                        "description": "注册成功提示信息"
+                      },
+                      "data": {
+                        "type": "string",
+                        "description": "空字符串"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/login": {
+            "post": {
+              "tags": [
+                "登录"
+              ],
+              "summary": "登录用户",
+              "description": "",
+              "parameters": [
+                {
+                  "in": "body",
+                  "name": "body",
+                  "description": "登录用户信息",
+                  "required": true,
+                  "schema": {
+                    "type": "object",
+                    "required": [
+                      "userEmail",
+                      "pwd"
+                    ],
+                    "properties": {
+                      "userEmail": {
+                        "type": "string",
+                        "description": "用户邮箱"
+                      },
+                      "pwd": {
+                        "type": "string",
+                        "description": "用户密码"
+                      }
+                    }
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "SUCCEED",
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "用户id"
+                      },
+                      "userName": {
+                        "type": "string",
+                        "description": "用户名"
+                      },
+                      "avatar": {
+                        "type": "string",
+                        "description": "用户头像地址"
+                      },
+                      "userEmail": {
+                        "type": "string",
+                        "description": "用户邮箱"
+                      },
+                      "createdTime": {
+                        "type": "string",
+                        "description": "创建时间"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/questionList": {
+            "get": {
+              "tags": [
+                "题库"
+              ],
+              "summary": "按照页码搜索考题列表",
+              "description": "",
+              "parameters": [
+                {
+                  "in": "query",
+                  "name": "page",
+                  "description": "页码"
+                },
+                {
+                  "in": "query",
+                  "name": "pageSize",
+                  "description": "每一页的数据条数"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "SUCCEED",
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "string",
+                        "description": ""
+                      },
+                      "msg": {
+                        "type": "msg",
+                        "description": "响应信息"
+                      },
+                      "data": {
+                        "type": "string",
+                        "description": "查询结果数组"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/qtTotal": {
+            "get": {
+              "tags": [
+                "题库"
+              ],
+              "summary": "考题数量",
+              "description": "",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": "SUCCEED",
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "string",
+                        "description": ""
+                      },
+                      "msg": {
+                        "type": "msg",
+                        "description": "响应信息"
+                      },
+                      "data": {
+                        "type": "string",
+                        "description": "查询结果-长度"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/createQuestion": {
+            "post": {
+              "tags": [
+                "题库"
+              ],
+              "summary": "创建题库",
+              "description": "",
+              "parameters": [
+                {
+                  "in": "body",
+                  "name": "body",
+                  "description": "创建题库参数",
+                  "required": true,
+                  "schema": {
+                    "type": "object",
+                    "required": [
+                      "creatorId",
+                      "creatorName",
+                      "questionType",
+                      "questionTypeName",
+                      "questionContent",
+                      "questionAnswer"
+                    ],
+                    "properties": {
+                      "creatorId": {
+                        "type": "string",
+                        "description": "创建者id"
+                      },
+                      "creatorName": {
+                        "type": "string",
+                        "description": "创建者姓名"
+                      },
+                      "questionType": {
+                        "type": "string",
+                        "description": "考题类型"
+                      },
+                      "questionTypeName": {
+                        "type": "string",
+                        "description": "考题类型名字"
+                      },
+                      "questionContent": {
+                        "type": "string",
+                        "description": "考题内容"
+                      },
+                      "questionAnswer": {
+                        "type": "string",
+                        "description": "考题答案"
+                      }
+                    }
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "SUCCEED",
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "string",
+                        "description": "响应类型"
+                      },
+                      "msg": {
+                        "type": "string",
+                        "description": "响应消息"
+                      },
+                      "data": {
+                        "type": "string",
+                        "description": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "enable": true
+    },
+    "env": "local",
+    "name": "writtentestApi",
+    "keys": "<String len: 33>",
+    "proxy": false,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "writtentestApi",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "egg": {
+        "declarations": true
+      },
+      "dependencies": {
+        "adbkit-apkreader": "^3.1.2",
+        "app-info-parser": "^0.3.3",
+        "egg": "^2.15.1",
+        "egg-cors": "^2.2.0",
+        "egg-mysql": "^3.0.0",
+        "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^5.0.0",
+        "egg-swagger2": "^1.0.4",
+        "jsonwebtoken": "^8.5.1",
+        "md5": "^2.2.1",
+        "mime-types": "^2.1.24",
+        "mysql2": "^1.6.5",
+        "pump": "^3.0.0",
+        "stream-wormhole": "^1.1.0"
+      },
+      "devDependencies": {
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.21.0",
+        "eslint": "^5.13.0",
+        "eslint-config-egg": "^7.1.0",
+        "utility": "^1.16.1"
+      },
+      "engines": {
+        "node": ">=10.0.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-coco",
+        "stop": "egg-scripts stop --title=egg-server-coco",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "ci": {
+        "version": "10"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/fullwin/Downloads/writtentestApi",
+    "HOME": "/Users/fullwin",
+    "rundir": "/Users/fullwin/Downloads/writtentestApi/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "5mb",
+      "jsonLimit": "5mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/fullwin/Downloads/writtentestApi/logs/writtentestApi",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "writtentestApi-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "url": "127.0.0.1:7001",
+    "middleware": [],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 1572864000,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-security",
+      "version": "2.6.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-multipart",
+      "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-development",
+      "version": "2.4.3"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-view",
+      "version": "2.1.2"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-cors",
+      "version": "2.2.0"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-sequelize",
+      "version": "5.2.0"
+    },
+    "swagger2": {
+      "enable": true,
+      "package": "egg-swagger2",
+      "name": "swagger2",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/fullwin/Downloads/writtentestApi/config/plugin.js",
+      "path": "/Users/fullwin/Downloads/writtentestApi/node_modules/egg-swagger2",
+      "version": "1.0.4"
+    }
+  }
+}
