@@ -94,7 +94,22 @@ class AuthController extends Controller {
                     userEmail,
                     createdTime
                 }
-            }   
+            }
+        }
+    }
+
+    async test() {
+        const {
+            ctx,
+            service
+        } = this;
+        console.log('ctx',ctx);
+        return ctx.body = {
+            code: 1,
+            msg: 'success',
+            data: {
+                'success': true
+            }
         }
     }
 }

@@ -141,3 +141,94 @@
 2019-11-19 20:46:15,380 INFO 29317 [egg:core] dump config after load, 8ms
 2019-11-19 20:46:15,514 INFO 29317 [egg-watcher:application] watcher start success
 2019-11-19 20:46:15,944 INFO 29317 [egg:core] dump config after ready, 5ms
+2019-11-19 21:09:16,266 INFO 30410 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:09:16,295 INFO 30410 [egg-multipart] stream mode enable
+2019-11-19 21:09:17,182 INFO 30410 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:09:17,184 INFO 30410 [egg-security] use methodnoallow middleware
+2019-11-19 21:09:17,185 INFO 30410 [egg-security] use noopen middleware
+2019-11-19 21:09:17,186 INFO 30410 [egg-security] use nosniff middleware
+2019-11-19 21:09:17,186 INFO 30410 [egg-security] use xssProtection middleware
+2019-11-19 21:09:17,187 INFO 30410 [egg-security] use xframe middleware
+2019-11-19 21:09:17,187 INFO 30410 [egg-security] use dta middleware
+2019-11-19 21:09:17,187 INFO 30410 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:09:17,196 INFO 30410 [egg:core] dump config after load, 4ms
+2019-11-19 21:09:17,369 INFO 30410 [egg-watcher:application] watcher start success
+2019-11-19 21:09:17,613 INFO 30410 [egg:core] dump config after ready, 3ms
+2019-11-19 21:10:17,356 INFO 30484 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:10:17,376 INFO 30484 [egg-multipart] stream mode enable
+2019-11-19 21:10:17,616 INFO 30484 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:10:17,618 INFO 30484 [egg-security] use methodnoallow middleware
+2019-11-19 21:10:17,618 INFO 30484 [egg-security] use noopen middleware
+2019-11-19 21:10:17,618 INFO 30484 [egg-security] use nosniff middleware
+2019-11-19 21:10:17,618 INFO 30484 [egg-security] use xssProtection middleware
+2019-11-19 21:10:17,619 INFO 30484 [egg-security] use xframe middleware
+2019-11-19 21:10:17,619 INFO 30484 [egg-security] use dta middleware
+2019-11-19 21:10:17,619 INFO 30484 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:10:17,626 INFO 30484 [egg:core] dump config after load, 4ms
+2019-11-19 21:10:17,712 INFO 30484 [egg-watcher:application] watcher start success
+2019-11-19 21:10:17,974 INFO 30484 [egg:core] dump config after ready, 4ms
+2019-11-19 21:14:50,432 INFO 30813 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:14:50,451 INFO 30813 [egg-multipart] stream mode enable
+2019-11-19 21:14:50,673 INFO 30813 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:14:50,675 INFO 30813 [egg-security] use methodnoallow middleware
+2019-11-19 21:14:50,675 INFO 30813 [egg-security] use noopen middleware
+2019-11-19 21:14:50,675 INFO 30813 [egg-security] use nosniff middleware
+2019-11-19 21:14:50,676 INFO 30813 [egg-security] use xssProtection middleware
+2019-11-19 21:14:50,676 INFO 30813 [egg-security] use xframe middleware
+2019-11-19 21:14:50,676 INFO 30813 [egg-security] use dta middleware
+2019-11-19 21:14:50,676 INFO 30813 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:14:50,685 INFO 30813 [egg:core] dump config after load, 4ms
+2019-11-19 21:14:50,771 INFO 30813 [egg-watcher:application] watcher start success
+2019-11-19 21:14:51,010 INFO 30813 [egg:core] dump config after ready, 5ms
+2019-11-19 21:14:55,514 INFO 30820 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:14:55,534 INFO 30820 [egg-multipart] stream mode enable
+2019-11-19 21:14:55,754 INFO 30820 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:14:55,756 INFO 30820 [egg-security] use methodnoallow middleware
+2019-11-19 21:14:55,756 INFO 30820 [egg-security] use noopen middleware
+2019-11-19 21:14:55,756 INFO 30820 [egg-security] use nosniff middleware
+2019-11-19 21:14:55,757 INFO 30820 [egg-security] use xssProtection middleware
+2019-11-19 21:14:55,757 INFO 30820 [egg-security] use xframe middleware
+2019-11-19 21:14:55,757 INFO 30820 [egg-security] use dta middleware
+2019-11-19 21:14:55,757 INFO 30820 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:14:55,764 INFO 30820 [egg:core] dump config after load, 4ms
+2019-11-19 21:14:55,855 INFO 30820 [egg-watcher:application] watcher start success
+2019-11-19 21:14:56,090 INFO 30820 [egg:core] dump config after ready, 3ms
+2019-11-19 21:15:44,883 INFO 30859 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:15:44,902 INFO 30859 [egg-multipart] stream mode enable
+2019-11-19 21:15:45,141 INFO 30859 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:15:45,142 INFO 30859 [egg-security] use methodnoallow middleware
+2019-11-19 21:15:45,142 INFO 30859 [egg-security] use noopen middleware
+2019-11-19 21:15:45,143 INFO 30859 [egg-security] use nosniff middleware
+2019-11-19 21:15:45,143 INFO 30859 [egg-security] use xssProtection middleware
+2019-11-19 21:15:45,143 INFO 30859 [egg-security] use xframe middleware
+2019-11-19 21:15:45,143 INFO 30859 [egg-security] use dta middleware
+2019-11-19 21:15:45,143 INFO 30859 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:15:45,151 INFO 30859 [egg:core] dump config after load, 5ms
+2019-11-19 21:15:45,230 INFO 30859 [egg-watcher:application] watcher start success
+2019-11-19 21:15:45,471 INFO 30859 [egg:core] dump config after ready, 4ms
+2019-11-19 21:16:20,864 INFO 30900 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:16:20,885 INFO 30900 [egg-multipart] stream mode enable
+2019-11-19 21:16:21,117 INFO 30900 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:16:21,118 INFO 30900 [egg-security] use methodnoallow middleware
+2019-11-19 21:16:21,119 INFO 30900 [egg-security] use noopen middleware
+2019-11-19 21:16:21,119 INFO 30900 [egg-security] use nosniff middleware
+2019-11-19 21:16:21,119 INFO 30900 [egg-security] use xssProtection middleware
+2019-11-19 21:16:21,119 INFO 30900 [egg-security] use xframe middleware
+2019-11-19 21:16:21,119 INFO 30900 [egg-security] use dta middleware
+2019-11-19 21:16:21,119 INFO 30900 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:16:21,128 INFO 30900 [egg:core] dump config after load, 5ms
+2019-11-19 21:16:21,219 INFO 30900 [egg-watcher:application] watcher start success
+2019-11-19 21:16:21,685 INFO 30900 [egg:core] dump config after ready, 4ms
+2019-11-19 21:27:59,399 INFO 31432 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"writtentestApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-19 21:27:59,420 INFO 31432 [egg-multipart] stream mode enable
+2019-11-19 21:27:59,659 INFO 31432 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-19 21:27:59,661 INFO 31432 [egg-security] use methodnoallow middleware
+2019-11-19 21:27:59,661 INFO 31432 [egg-security] use noopen middleware
+2019-11-19 21:27:59,662 INFO 31432 [egg-security] use nosniff middleware
+2019-11-19 21:27:59,662 INFO 31432 [egg-security] use xssProtection middleware
+2019-11-19 21:27:59,662 INFO 31432 [egg-security] use xframe middleware
+2019-11-19 21:27:59,662 INFO 31432 [egg-security] use dta middleware
+2019-11-19 21:27:59,662 INFO 31432 [egg-security] compose 6 middlewares into one security middleware
+2019-11-19 21:27:59,670 INFO 31432 [egg:core] dump config after load, 5ms
+2019-11-19 21:27:59,755 INFO 31432 [egg-watcher:application] watcher start success
+2019-11-19 21:28:00,000 INFO 31432 [egg:core] dump config after ready, 3ms

@@ -851,3 +851,58 @@ hostname: ^_^
 2019-11-19 20:46:15,892 INFO 29317 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `questiontype` FROM `record`
 2019-11-19 20:46:15,915 INFO 29317 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
 2019-11-19 20:46:15,937 INFO 29317 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:09:17,346 INFO 30410 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:09:17,583 INFO 30410 [egg-sequelize](20ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:09:17,584 INFO 30410 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:09:17,607 INFO 30410 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:10:17,689 INFO 30484 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:10:17,940 INFO 30484 [egg-sequelize](24ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:10:17,941 INFO 30484 [egg-sequelize](24ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:10:17,967 INFO 30484 [egg-sequelize](25ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:14:50,736 INFO 30813 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:14:50,978 INFO 30813 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:14:50,979 INFO 30813 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:14:51,002 INFO 30813 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:14:55,826 INFO 30820 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:14:56,061 INFO 30820 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:14:56,062 INFO 30820 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:14:56,085 INFO 30820 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:15:06,881 ERROR 30820 [-/127.0.0.1/-/27ms GET /test] nodejs.ReferenceError: ctx is not defined
+    at AuthController.test (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/controller/auth.js:102:9)
+    at Object.callFn (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 30820
+hostname: DaviddeiMac.local
+
+2019-11-19 21:15:45,198 INFO 30859 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:15:45,440 INFO 30859 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:15:45,441 INFO 30859 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:15:45,465 INFO 30859 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:16:21,194 INFO 30900 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:16:21,654 INFO 30900 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:16:21,655 INFO 30900 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:16:21,679 INFO 30900 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-19 21:27:59,725 INFO 31432 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-19 21:27:59,970 INFO 31432 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-19 21:27:59,971 INFO 31432 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-19 21:27:59,994 INFO 31432 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
