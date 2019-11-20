@@ -241,3 +241,58 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8102","vary":"Origin"}
 pid: 64004
 hostname: DaviddeiMac.local
 
+2019-11-20 16:27:08,761 ERROR 69005 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Column length too big for column 'notes_content' (max = 21845); use BLOB or TEXT instead
+    at Query.formatError (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at promise.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:236:46)
+From previous event:
+    at QueryInterface.createTable (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:236:20)
+    at Promise.try.then.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:1292:39)
+From previous event:
+    at Function.sync (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:1292:8)
+    at Promise.each.model (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:818:50)
+From previous event:
+    at Promise.try.then.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:818:22)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Sequelize.sync (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:802:8)
+    at app.beforeStart (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app.js:7:25)
+    at Object.callFn (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TOO_BIG_FIELDLENGTH","errno":1074,"sqlState":"42000","sqlMessage":"Column length too big for column 'notes_content' (max = 21845); use BLOB or TEXT instead","sql":"CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;"}
+original: {"code":"ER_TOO_BIG_FIELDLENGTH","errno":1074,"sqlState":"42000","sqlMessage":"Column length too big for column 'notes_content' (max = 21845); use BLOB or TEXT instead","sql":"CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;"}
+sql: "CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;"
+parameters: undefined
+pid: 69005
+hostname: DaviddeiMac.local
+

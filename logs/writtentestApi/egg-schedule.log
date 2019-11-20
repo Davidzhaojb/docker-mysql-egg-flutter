@@ -34,3 +34,30 @@
 2019-11-20 14:28:49,335 INFO 64004 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2019-11-20 14:28:49,335 INFO 64004 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
 2019-11-20 14:28:49,335 INFO 64004 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 16:26:50,426 INFO 68993 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 16:26:50,426 INFO 68993 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 16:26:50,426 INFO 68993 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 16:27:06,813 INFO 69005 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 16:27:06,813 INFO 69005 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 16:27:06,813 INFO 69005 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 16:27:16,819 INFO 69024 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 16:27:16,819 INFO 69024 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 16:27:16,819 INFO 69024 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 16:31:52,054 INFO 69175 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 16:31:52,054 INFO 69175 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 16:31:52,054 INFO 69175 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 16:52:46,375 INFO 73402 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 16:52:46,375 INFO 73402 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 16:52:46,375 INFO 73402 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 16:52:47,965 INFO 73400 [Timer] /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41832037ms at 2019-11-21 04:30:00.002
+2019-11-20 16:52:47,965 INFO 73400 [Timer] /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25632035ms at 2019-11-21 00:00:00.000
+2019-11-20 16:52:47,966 INFO 73400 [Timer] /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25633035ms at 2019-11-21 00:00:01.001
+2019-11-20 17:21:14,587 INFO 74393 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 17:21:14,587 INFO 74393 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 17:21:14,587 INFO 74393 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 18:07:41,698 INFO 75765 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 18:07:41,698 INFO 75765 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 18:07:41,698 INFO 75765 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 18:07:43,194 INFO 75763 [Timer] /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37336810ms at 2019-11-21 04:30:00.004
+2019-11-20 18:07:43,194 INFO 75763 [Timer] /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21136806ms at 2019-11-21 00:00:00.000
+2019-11-20 18:07:43,194 INFO 75763 [Timer] /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21137806ms at 2019-11-21 00:00:01.000

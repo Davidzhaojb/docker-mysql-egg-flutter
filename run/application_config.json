@@ -157,7 +157,7 @@
         ".ipa"
       ],
       "whitelist": null,
-      "tmpdir": "/var/folders/hp/h1nzrbld2hj6t5qrbk970xfw0000gn/T/egg-multipart-tmp/writtentestApi",
+      "tmpdir": "/var/folders/hp/h1nzrbld2hj6t5qrbk970xfw0000gn/T/egg-multipart-tmp/notesApi",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -400,15 +400,15 @@
       "enable": true
     },
     "env": "local",
-    "name": "writtentestApi",
-    "keys": "<String len: 33>",
+    "name": "notesApi",
+    "keys": "<String len: 27>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "writtentestApi",
+      "name": "notesApi",
       "version": "1.0.0",
       "description": "",
       "private": true,
@@ -500,7 +500,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/writtentestApi",
+      "dir": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -508,7 +508,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "writtentestApi-web.log",
+      "appLogName": "notesApi-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",

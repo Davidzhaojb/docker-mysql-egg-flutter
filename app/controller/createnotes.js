@@ -27,6 +27,21 @@ class CreateNotesController extends Controller {
             data: ''
         }
     }
+
+    async findList(){
+        const {
+            ctx,
+            service,
+        } = this;
+        const candidates = await service.dbdo.getAllNotes({
+        });
+        console.log('candidates',candidates);
+        return ctx.body = {
+            code: 1,
+            msg: '获取所有笔记列表成功',
+            data: candidates
+        }
+    }
 }
 
 module.exports = CreateNotesController;

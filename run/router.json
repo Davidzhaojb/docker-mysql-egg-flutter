@@ -42,6 +42,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/getallnotes",
+    "regexp": "/^\\/getallnotes(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api",
     "regexp": "/^\\/api(?:\\/(?=$))?$/",
     "stack": [

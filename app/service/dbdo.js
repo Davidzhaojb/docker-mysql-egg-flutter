@@ -38,6 +38,19 @@ class DbdoService extends Service {
         return this.ctx.model.Notes.create(data);
     }
     /**
+     * @params 获取全部笔记
+     */
+    async getAllNotes(where, limit, offset) {
+        return this.ctx.model.Notes.findAll({
+            where,
+            limit,
+            offset,
+            'order': [
+                ['id', 'DESC']
+            ]
+        });
+    }
+    /**
      *
      * 题库 相关
      *

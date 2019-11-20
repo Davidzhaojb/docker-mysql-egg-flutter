@@ -315,3 +315,102 @@ hostname: DaviddeiMac.local
 2019-11-20 14:34:11,524 INFO 64004 [egg-sequelize](22ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `user_email` AS `userEmail`, `avatar`, `pwd`, `token`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`pwd` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' AND `user`.`user_email` = '111' LIMIT 1;
 2019-11-20 14:34:11,594 INFO 64004 [egg-sequelize](45ms) Executed (default): UPDATE `user` SET `token`=?,`updated_at`=? WHERE `id` = ?
 2019-11-20 14:42:27,719 INFO 64004 [egg-sequelize](43ms) Executed (default): INSERT INTO `notes` (`id`,`notes_title`,`notes_subtitle`,`notes_author`,`notes_content`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2019-11-20 16:21:24,196 INFO 64004 [egg-sequelize](43ms) Executed (default): INSERT INTO `notes` (`id`,`notes_title`,`notes_subtitle`,`notes_author`,`notes_content`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2019-11-20 16:23:09,448 INFO 64004 [egg-sequelize](43ms) Executed (default): INSERT INTO `notes` (`id`,`notes_title`,`notes_subtitle`,`notes_author`,`notes_content`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2019-11-20 16:26:52,113 INFO 68993 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 16:26:52,393 INFO 68993 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 16:26:52,394 INFO 68993 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:26:52,417 INFO 68993 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-20 16:26:52,439 INFO 68993 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:26:52,461 INFO 68993 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-20 16:27:08,468 INFO 69005 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 16:27:08,755 INFO 69005 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 16:27:08,756 INFO 69005 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:27:08,761 ERROR 69005 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: Column length too big for column 'notes_content' (max = 21845); use BLOB or TEXT instead
+    at Query.formatError (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:641:10)
+    at /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at promise.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:236:46)
+From previous event:
+    at QueryInterface.createTable (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:236:20)
+    at Promise.try.then.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:1292:39)
+From previous event:
+    at Function.sync (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:1292:8)
+    at Promise.each.model (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:818:50)
+From previous event:
+    at Promise.try.then.then (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:818:22)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Sequelize.sync (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:802:8)
+    at app.beforeStart (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app.js:7:25)
+    at Object.callFn (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TOO_BIG_FIELDLENGTH","errno":1074,"sqlState":"42000","sqlMessage":"Column length too big for column 'notes_content' (max = 21845); use BLOB or TEXT instead","sql":"CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;"}
+original: {"code":"ER_TOO_BIG_FIELDLENGTH","errno":1074,"sqlState":"42000","sqlMessage":"Column length too big for column 'notes_content' (max = 21845); use BLOB or TEXT instead","sql":"CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;"}
+sql: "CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;"
+parameters: undefined
+pid: 69005
+hostname: DaviddeiMac.local
+
+2019-11-20 16:27:17,160 INFO 69024 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 16:27:17,412 INFO 69024 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 16:27:17,413 INFO 69024 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(999), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:27:17,437 INFO 69024 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-20 16:27:17,461 INFO 69024 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:27:17,483 INFO 69024 [egg-sequelize](20ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-20 16:31:53,544 INFO 69175 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 16:31:53,853 INFO 69175 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 16:31:53,854 INFO 69175 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(998), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:31:53,877 INFO 69175 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-20 16:31:53,899 INFO 69175 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:31:53,920 INFO 69175 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-20 16:52:47,639 INFO 73402 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 16:52:47,871 INFO 73402 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 16:52:47,884 INFO 73402 [egg-sequelize](33ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(998), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:52:47,908 INFO 73402 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-20 16:52:47,932 INFO 73402 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 16:52:47,953 INFO 73402 [egg-sequelize](20ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-20 16:53:34,563 INFO 73402 [egg-sequelize](22ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `user_email` AS `userEmail`, `avatar`, `pwd`, `token`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`pwd` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' AND `user`.`user_email` = '111' LIMIT 1;
+2019-11-20 16:53:34,784 INFO 73402 [egg-sequelize](44ms) Executed (default): UPDATE `user` SET `token`=?,`updated_at`=? WHERE `id` = ?
+2019-11-20 16:53:48,870 INFO 73402 [egg-sequelize](42ms) Executed (default): INSERT INTO `notes` (`id`,`notes_title`,`notes_subtitle`,`notes_author`,`notes_content`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2019-11-20 17:21:16,394 INFO 74393 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 17:21:16,644 INFO 74393 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 17:21:16,645 INFO 74393 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(997), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 17:21:16,668 INFO 74393 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-20 17:21:16,690 INFO 74393 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 17:21:16,711 INFO 74393 [egg-sequelize](20ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-20 18:07:42,853 INFO 75765 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-20 18:07:43,101 INFO 75765 [egg-sequelize](26ms) Executed (default): SELECT 1+1 AS result
+2019-11-20 18:07:43,108 INFO 75765 [egg-sequelize](33ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_author` VARCHAR(10), `notes_content` VARCHAR(997), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 18:07:43,132 INFO 75765 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-20 18:07:43,157 INFO 75765 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-20 18:07:43,182 INFO 75765 [egg-sequelize](24ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
