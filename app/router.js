@@ -11,9 +11,10 @@ module.exports = app => {
   } = app;
   const checkToken = app.middleware.checkToken({}, app);
   // auth
-  router.post('/register', controller.auth.register);
-  router.post('/login', controller.auth.login);
-  router.get('/api', controller.auth.api);
+  router.post('/register', controller.auth.register); // 注册
+  router.post('/login', controller.auth.login);       // 登录
+  router.post('/createnotes',controller.createnotes.create); // 创建笔记
+  router.get('/api', controller.auth.api);            // 测试
 
 
   // auto

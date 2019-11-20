@@ -25,7 +25,18 @@ class DbdoService extends Service {
             where
         })
     }
+    /**
+     * @params 笔记相关
+     * @param author David 2019-11-20
+     */
 
+     /**
+      * @params 创建笔记
+      */
+     async createNotes(data) {
+        console.log('createdata', data);
+        return this.ctx.model.Notes.create(data);
+    }
     /**
      *
      * 题库 相关

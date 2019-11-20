@@ -26,6 +26,18 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/createnotes",
+    "regexp": "/^\\/createnotes(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],

@@ -25,3 +25,12 @@
 2019-11-20 11:30:19,967 INFO 58945 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2019-11-20 11:30:19,967 INFO 58945 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
 2019-11-20 11:30:19,967 INFO 58945 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 14:12:31,984 INFO 63429 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 14:12:31,984 INFO 63429 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 14:12:31,984 INFO 63429 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 14:27:24,531 INFO 63955 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 14:27:24,531 INFO 63955 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 14:27:24,532 INFO 63955 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-20 14:28:49,335 INFO 64004 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-20 14:28:49,335 INFO 64004 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-20 14:28:49,335 INFO 64004 [egg-schedule]: register schedule /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

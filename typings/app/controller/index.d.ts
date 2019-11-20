@@ -3,9 +3,11 @@
 
 import 'egg';
 import ExportAuth = require('../../../app/controller/auth');
+import ExportCreatenotes = require('../../../app/controller/createnotes');
 
 declare module 'egg' {
   interface IController {
     auth: ExportAuth;
+    createnotes: ExportCreatenotes;
   }
 }
