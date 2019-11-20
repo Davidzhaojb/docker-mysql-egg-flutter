@@ -30,8 +30,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/test",
-    "regexp": "/^\\/test(?:\\/(?=$))?$/",
+    "path": "/api",
+    "regexp": "/^\\/api(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

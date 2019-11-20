@@ -98,7 +98,7 @@ class AuthController extends Controller {
         }
     }
 
-    async test() {
+    async api() {
         const {
             ctx,
             service

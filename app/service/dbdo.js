@@ -12,6 +12,7 @@ class DbdoService extends Service {
      *
      */
     async createUser(data) {
+        console.log('createdata', data);
         return this.ctx.model.User.create(data);
     }
     async findUser(where) {

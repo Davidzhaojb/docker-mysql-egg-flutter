@@ -13,7 +13,7 @@ module.exports = app => {
   // auth
   router.post('/register', controller.auth.register);
   router.post('/login', controller.auth.login);
-  router.get('/test', controller.auth.test);
+  router.get('/api', controller.auth.api);
 
 
   // auto
