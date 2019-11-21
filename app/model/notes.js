@@ -6,7 +6,6 @@ module.exports = app => {
         id: { type: INTEGER, primaryKey: true, autoIncrement: true },
         notesTitle: STRING(15),
         notesSubtitle: STRING(15),
-        notesAuthor: STRING(10),
         notesContent: TEXT,
         createdTime: {
             type: DATE,

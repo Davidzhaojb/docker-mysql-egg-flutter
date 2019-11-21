@@ -12,7 +12,6 @@ class DbdoService extends Service {
      *
      */
     async createUser(data) {
-        console.log('createdata', data);
         return this.ctx.model.User.create(data);
     }
     async findUser(where) {
@@ -34,7 +33,6 @@ class DbdoService extends Service {
       * @params 创建笔记
       */
      async createNotes(data) {
-        console.log('createdata', data);
         return this.ctx.model.Notes.create(data);
     }
     /**
@@ -48,6 +46,15 @@ class DbdoService extends Service {
             'order': [
                 ['id', 'DESC']
             ]
+        });
+    }
+    /**
+     * @params 删除笔记
+     */
+    async deleteNotes(where) {
+        console.log('where',where);
+        return this.ctx.model.Notes.destroy({
+            where
         });
     }
     /**

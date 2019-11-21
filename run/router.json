@@ -55,6 +55,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/deletenote",
+    "regexp": "/^\\/deletenote(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api",
     "regexp": "/^\\/api(?:\\/(?=$))?$/",
     "stack": [
