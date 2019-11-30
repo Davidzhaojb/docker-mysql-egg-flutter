@@ -1,0 +1,190 @@
+2019-11-26 19:11:35,030 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 156565ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 19:45:33,223 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 1997083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 22:55:29,099 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612029ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 23:41:25,147 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 2696028ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 23:45:51,733 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 226583ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 00:46:44,778 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3613038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 00:55:31,447 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 486655ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 01:56:23,050 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3589768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 02:42:26,741 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 2703654ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 02:47:02,220 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 235442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 03:47:54,698 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612468ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 04:48:47,085 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612358ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 05:42:45,184 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3177760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 05:47:57,739 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 272535ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 06:48:50,153 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 07:43:02,630 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3192459ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 07:48:27,489 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 284855ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 08:49:20,222 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612724ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 09:10:15,532 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 1215177ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+

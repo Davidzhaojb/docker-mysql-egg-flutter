@@ -29,10 +29,10 @@ class DbdoService extends Service {
      * @param author David 2019-11-20
      */
 
-     /**
-      * @params 创建笔记
-      */
-     async createNotes(data) {
+    /**
+     * @params 创建笔记
+     */
+    async createNotes(data) {
         return this.ctx.model.Notes.create(data);
     }
     /**
@@ -49,10 +49,18 @@ class DbdoService extends Service {
         });
     }
     /**
+     * @params 编辑笔记
+     */
+    async editNotes(where, data) {
+        return this.ctx.model.Notes.update(data, {
+            where
+        });
+    }
+    /**
      * @params 删除笔记
      */
     async deleteNotes(where) {
-        console.log('where',where);
+        console.log('where+++++++++++', where);
         return this.ctx.model.Notes.destroy({
             where
         });
@@ -222,6 +230,22 @@ class DbdoService extends Service {
         });
     }
 
+
+
+    // 商城相关
+    /**
+     * @params 获取商城首页内容
+     */
+    async getAllShops(where, limit, offset) {
+        return this.ctx.model.Shops.findAll({
+            where,
+            limit,
+            offset,
+            'order': [
+                ['id', 'DESC']
+            ]
+        });
+    }
 }
 
 module.exports = DbdoService;

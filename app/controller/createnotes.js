@@ -44,6 +44,36 @@ class CreateNotesController extends Controller {
         }
     }
     /**
+     * @params 编辑
+     */
+    async edit() {
+        const {
+            ctx,
+            service,
+        } = this;
+        const {
+            id,
+            notesTitle,
+            notesSubtitle,
+            notesContent,
+        } = ctx.request.body;
+        service.dbdo.editNotes(
+            {
+                id
+            },
+            {
+                notesTitle,
+                notesSubtitle,
+                notesContent,
+            });
+        return ctx.body = {
+            code: 1,
+            msg: '更新成功',
+            data: ''
+        }
+    }
+
+    /**
      * @params 删除笔记
      */
     async delete() {

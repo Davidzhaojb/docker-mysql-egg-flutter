@@ -15,8 +15,13 @@ module.exports = app => {
     router.post('/login', controller.auth.login);       // 登录
     router.post('/createnotes', controller.createnotes.create); // 创建笔记
     router.get('/getallnotes', controller.createnotes.findList); // 查询列表
+    router.put('/editnotes', controller.createnotes.edit); // 编辑笔记
     router.get('/deletenote', controller.createnotes.delete); // 删除笔记
     router.get('/api', controller.auth.api);            // 测试
+
+
+
+    router.get('/homepagecontent',controller.shophomepage.findshops);  // 获取首页内容
 
 
     // auto

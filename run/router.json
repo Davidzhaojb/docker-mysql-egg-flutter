@@ -51,6 +51,18 @@
   {
     "name": null,
     "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/editnotes",
+    "regexp": "/^\\/editnotes(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -70,6 +82,19 @@
     "paramNames": [],
     "path": "/api",
     "regexp": "/^\\/api(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/homepagecontent",
+    "regexp": "/^\\/homepagecontent(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

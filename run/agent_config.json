@@ -167,7 +167,7 @@
     },
     "sequelize": {
       "dialect": "mysql",
-      "database": "record",
+      "database": "shops",
       "host": "45.249.247.221",
       "port": 3306,
       "username": "root",

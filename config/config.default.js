@@ -67,7 +67,7 @@ module.exports = appInfo => {
       host: '45.249.247.221', // 线上服务器
       username: 'root', // 线上服务器
       port: 3306,
-      database: 'record',
+      database: 'shops',
       password: 'a123456'
     },
     swagger2: {

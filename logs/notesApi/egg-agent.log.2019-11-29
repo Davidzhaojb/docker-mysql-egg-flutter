@@ -1,0 +1,257 @@
+2019-11-23 00:00:00,999 INFO 13277 [egg-logrotator] agent logger reload: got log-reload message
+2019-11-26 14:13:12,289 INFO 79506 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-26 14:13:15,386 INFO 79506 [egg:core] dump config after load, 7ms
+2019-11-26 14:13:16,397 INFO 79506 [egg-watcher] Start watching: ["/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks_proxy","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app.js"]
+2019-11-26 14:13:16,397 INFO 79506 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app"
+2019-11-26 14:13:16,397 INFO 79506 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config"
+2019-11-26 14:13:16,397 INFO 79506 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks"
+2019-11-26 14:13:16,397 INFO 79506 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks_proxy"
+2019-11-26 14:13:16,397 INFO 79506 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app.js"
+2019-11-26 14:13:16,399 INFO 79506 [egg-watcher:agent] watcher start success
+2019-11-26 14:13:16,873 INFO 79506 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-26 14:13:16,879 INFO 79506 [egg:core] dump config after ready, 3ms
+2019-11-26 14:13:21,123 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/favicon-16x16.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921252,"size":0,"blocks":0,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,173 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/favicon-32x32.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921253,"size":1141,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,173 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/index.html","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921254,"size":1489,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,174 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/favicon-16x16.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921252,"size":445,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,224 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/index.html","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921254,"size":1489,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,224 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/index.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921255,"size":813,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,224 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/oauth2-redirect.html","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921256,"size":2388,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,225 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921257,"size":73728,"blocks":144,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,331 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921257,"size":1453783,"blocks":2840,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,331 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921258,"size":24576,"blocks":48,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,532 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921258,"size":5663006,"blocks":11064,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,533 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921259,"size":0,"blocks":0,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,641 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921259,"size":437889,"blocks":856,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,642 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921260,"size":0,"blocks":0,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,783 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921260,"size":1853456,"blocks":3624,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,784 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.css","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921261,"size":0,"blocks":0,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,835 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.css","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921261,"size":154003,"blocks":304,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,835 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921263,"size":73728,"blocks":144,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,835 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.css.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921262,"size":91,"blocks":8,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,913 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921263,"size":617094,"blocks":1208,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:21,913 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921264,"size":40960,"blocks":80,"atimeMs":1574748801000,"mtimeMs":1574748801000,"ctimeMs":1574748801000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:21.000Z","ctime":"2019-11-26T06:13:21.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:22,056 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62921264,"size":1259447,"blocks":2464,"atimeMs":1574748801000,"mtimeMs":1574748802000,"ctimeMs":1574748802000,"birthtimeMs":1574748801000,"atime":"2019-11-26T06:13:21.000Z","mtime":"2019-11-26T06:13:22.000Z","ctime":"2019-11-26T06:13:22.000Z","birthtime":"2019-11-26T06:13:21.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 14:13:22,056 INFO 79506 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger.json","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":61924936,"size":2204,"blocks":8,"atimeMs":1574748715000,"mtimeMs":1574748802000,"ctimeMs":1574748802000,"birthtimeMs":1574073956000,"atime":"2019-11-26T06:11:55.000Z","mtime":"2019-11-26T06:13:22.000Z","ctime":"2019-11-26T06:13:22.000Z","birthtime":"2019-11-18T10:45:56.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-26 19:11:35,031 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 156565ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 19:45:33,223 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 1997083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 22:55:29,099 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612029ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 23:41:25,147 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 2696028ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-26 23:45:51,734 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 226583ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 00:46:44,778 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3613038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 00:55:31,447 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 486655ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 01:56:23,050 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3589768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 02:42:26,741 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 2703654ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 02:47:02,220 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 235442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 03:47:54,724 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612468ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 04:48:47,086 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612358ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 05:42:45,202 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3177760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 05:47:57,740 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 272535ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 06:48:50,159 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 07:43:02,630 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3192459ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 07:48:27,489 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 284855ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 08:49:20,222 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 3612724ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-27 09:10:15,532 ERROR 79506 nodejs.ClusterClientNoResponseError: client no response in 1215177ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 79506
+hostname: DaviddeiMac.local
+
+2019-11-29 19:07:42,340 INFO 26931 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-29 19:07:43,619 INFO 26931 [egg:core] dump config after load, 4ms
+2019-11-29 19:07:43,958 INFO 26931 [egg-watcher] Start watching: ["/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks_proxy","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app.js"]
+2019-11-29 19:07:43,958 INFO 26931 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app"
+2019-11-29 19:07:43,959 INFO 26931 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config"
+2019-11-29 19:07:43,959 INFO 26931 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks"
+2019-11-29 19:07:43,959 INFO 26931 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/mocks_proxy"
+2019-11-29 19:07:43,959 INFO 26931 [egg-watcher] Start watching: "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app.js"
+2019-11-29 19:07:43,960 INFO 26931 [egg-watcher:agent] watcher start success
+2019-11-29 19:07:44,279 INFO 26931 [egg-sequelize](24ms) Executed (default): SELECT 1+1 AS result
+2019-11-29 19:07:44,284 INFO 26931 [egg:core] dump config after ready, 3ms
+2019-11-29 19:07:48,050 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/favicon-16x16.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319862,"size":0,"blocks":0,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,100 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/favicon-16x16.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319862,"size":445,"blocks":8,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,100 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/index.html","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319864,"size":1489,"blocks":8,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,100 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/favicon-32x32.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319863,"size":1141,"blocks":8,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,101 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/index.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319865,"size":813,"blocks":8,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,101 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/oauth2-redirect.html","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319866,"size":2388,"blocks":8,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,101 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319867,"size":1453783,"blocks":2840,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,101 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319868,"size":8192,"blocks":16,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,353 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-bundle.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319868,"size":5663006,"blocks":11064,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,353 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319869,"size":8192,"blocks":16,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,403 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319869,"size":437889,"blocks":856,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,403 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319870,"size":0,"blocks":0,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,553 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui-standalone-preset.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319870,"size":1853456,"blocks":3624,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,555 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.css","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319871,"size":0,"blocks":0,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,604 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.css","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319871,"size":154003,"blocks":304,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,604 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319873,"size":73728,"blocks":144,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,604 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.css.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319872,"size":91,"blocks":8,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,717 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319873,"size":617094,"blocks":1208,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,717 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319874,"size":8192,"blocks":16,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,898 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger-ui.js.map","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":63319874,"size":1259447,"blocks":2464,"atimeMs":1575025668000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1575025668000,"atime":"2019-11-29T11:07:48.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-29T11:07:48.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-29 19:07:48,898 INFO 26931 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public/swagger/swagger.json","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":61924936,"size":2204,"blocks":8,"atimeMs":1575025623000,"mtimeMs":1575025668000,"ctimeMs":1575025668000,"birthtimeMs":1574073956000,"atime":"2019-11-29T11:07:03.000Z","mtime":"2019-11-29T11:07:48.000Z","ctime":"2019-11-29T11:07:48.000Z","birthtime":"2019-11-18T10:45:56.000Z"},"remove":false,"isDirectory":false,"isFile":true}

@@ -1,0 +1,51 @@
+2019-11-23 00:00:00,998 INFO 16683 [egg-logrotator] app logger reload: got log-reload message
+2019-11-23 04:29:59,979 INFO 16683 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/hp/h1nzrbld2hj6t5qrbk970xfw0000gn/T/egg-multipart-tmp/notesApi"
+2019-11-23 04:30:00,004 INFO 16683 [-/127.0.0.1/-/26ms SCHEDULE /__schedule?path=/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2019-11-26 14:13:18,682 INFO 79514 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-26 14:13:18,701 INFO 79514 [egg-multipart] stream mode enable
+2019-11-26 14:13:20,922 INFO 79514 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-26 14:13:20,924 INFO 79514 [egg-security] use methodnoallow middleware
+2019-11-26 14:13:20,933 INFO 79514 [egg-security] use noopen middleware
+2019-11-26 14:13:20,934 INFO 79514 [egg-security] use nosniff middleware
+2019-11-26 14:13:20,935 INFO 79514 [egg-security] use xssProtection middleware
+2019-11-26 14:13:20,936 INFO 79514 [egg-security] use xframe middleware
+2019-11-26 14:13:20,936 INFO 79514 [egg-security] use dta middleware
+2019-11-26 14:13:20,936 INFO 79514 [egg-security] compose 6 middlewares into one security middleware
+2019-11-26 14:13:21,111 INFO 79514 [egg:core] dump config after load, 55ms
+2019-11-26 14:13:22,068 INFO 79514 [egg-watcher:application] watcher start success
+2019-11-26 14:13:22,575 INFO 79514 [egg:core] dump config after ready, 4ms
+2019-11-26 19:11:36,125 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-26 19:45:33,223 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-26 22:55:29,098 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-26 23:41:25,147 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-26 23:45:51,733 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 00:46:44,778 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 00:55:31,447 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 01:56:21,225 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 02:42:26,741 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 02:47:02,220 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 03:47:54,698 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 04:48:47,086 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 05:42:45,184 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 05:47:57,739 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 06:48:50,153 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 07:43:02,630 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 07:48:27,494 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 08:49:20,222 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-27 09:10:15,532 WARN 79514 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-29 19:07:46,637 INFO 26938 [egg:logger] init all loggers with options: {"dir":"/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-29 19:07:46,660 INFO 26938 [egg-multipart] stream mode enable
+2019-11-29 19:07:47,967 INFO 26938 [egg-static] starting static serve /public/ -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public
+2019-11-29 19:07:47,969 INFO 26938 [egg-security] use methodnoallow middleware
+2019-11-29 19:07:47,970 INFO 26938 [egg-security] use noopen middleware
+2019-11-29 19:07:47,971 INFO 26938 [egg-security] use nosniff middleware
+2019-11-29 19:07:47,971 INFO 26938 [egg-security] use xssProtection middleware
+2019-11-29 19:07:47,972 INFO 26938 [egg-security] use xframe middleware
+2019-11-29 19:07:47,972 INFO 26938 [egg-security] use dta middleware
+2019-11-29 19:07:47,972 INFO 26938 [egg-security] compose 6 middlewares into one security middleware
+2019-11-29 19:07:48,039 INFO 26938 [egg:core] dump config after load, 22ms
+2019-11-29 19:07:48,917 INFO 26938 [egg-watcher:application] watcher start success
+2019-11-29 19:07:49,218 INFO 26938 [egg:core] dump config after ready, 4ms
+2019-11-30 00:00:00,084 INFO 26938 [egg-logrotator] clean all log before 31 days
+2019-11-30 00:00:01,005 INFO 26938 [egg-logrotator] broadcast log-reload
+2019-11-30 00:00:01,005 INFO 26938 [egg-logrotator] rotate files success by DayRotator, files ["/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/common-error.log -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/common-error.log.2019-11-29","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/notesApi-web.log -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/notesApi-web.log.2019-11-29","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/egg-web.log -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/egg-web.log.2019-11-29","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/egg-schedule.log -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/egg-schedule.log.2019-11-29","/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/egg-agent.log -> /Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi/egg-agent.log.2019-11-29"]
