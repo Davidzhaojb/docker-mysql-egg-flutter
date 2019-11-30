@@ -40,11 +40,15 @@ class CreateShopController extends Controller {
         return ctx.body = {
             code: 1,
             msg: '获取首页内容成功',
-            data: {
-                name: '青岛啤酒', 
-                price: '10',
-                sales: '100'
-            }
+            data: [
+                {
+                data: {
+                    name: '青岛啤酒',
+                    price: '10',
+                    sales: '100',
+                    slides: 'https://hbimg.huabanimg.com/f4cbef1496ba6be2244da8ced4336d324b365aa59e028-x5gUkf_fw658'
+                },
+            }],
         }
     }
     /**
