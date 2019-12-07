@@ -122,11 +122,11 @@ class AuthController extends Controller {
         return ctx.body = {
             code: 1,
             msg: 'success',
-            data: [
-                {images1:'http://downloadwebjs.com/other/init_icon.png'},
-                {images2:'http://downloadwebjs.com/other/init_logo.webp'},
-
-            ]
+            data: {
+                images1:'http://downloadwebjs.com/other/init_icon.png',
+                images2:'http://downloadwebjs.com/other/init_logo.webp',
+            }
+           
         }
     }
 }
