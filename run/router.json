@@ -93,6 +93,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/image",
+    "regexp": "/^\\/image(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/homepagecontent",
     "regexp": "/^\\/homepagecontent(?:\\/(?=$))?$/",
     "stack": [

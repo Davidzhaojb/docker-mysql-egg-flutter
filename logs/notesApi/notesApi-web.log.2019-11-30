@@ -1,0 +1,183 @@
+2019-11-30 10:32:24,177 INFO 94057 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 10:32:24,463 INFO 94057 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 10:32:24,464 INFO 94057 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:32:24,487 INFO 94057 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-30 10:32:24,510 INFO 94057 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:32:24,533 INFO 94057 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-30 10:35:16,445 INFO 94286 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 10:35:16,785 INFO 94286 [egg-sequelize](22ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 10:35:16,786 INFO 94286 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:35:16,812 INFO 94286 [egg-sequelize](25ms) Executed (default): SHOW INDEX FROM `notes` FROM `record`
+2019-11-30 10:35:16,837 INFO 94286 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:35:16,863 INFO 94286 [egg-sequelize](25ms) Executed (default): SHOW INDEX FROM `user` FROM `record`
+2019-11-30 10:44:09,568 INFO 95060 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 10:44:09,834 INFO 95060 [egg-sequelize](22ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 10:44:09,845 INFO 95060 [egg-sequelize](31ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:44:09,868 INFO 95060 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 10:44:09,901 INFO 95060 [egg-sequelize](31ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:44:09,924 INFO 95060 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 10:44:09,957 INFO 95060 [egg-sequelize](32ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:44:09,980 INFO 95060 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 10:44:11,377 INFO 95067 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 10:44:11,614 INFO 95067 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 10:44:11,615 INFO 95067 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:44:11,638 INFO 95067 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 10:44:11,661 INFO 95067 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:44:11,683 INFO 95067 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 10:44:11,705 INFO 95067 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 10:44:11,727 INFO 95067 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:05:36,186 INFO 96668 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:05:36,451 INFO 96668 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:05:36,453 INFO 96668 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:05:36,478 INFO 96668 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:05:36,501 INFO 96668 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:05:36,524 INFO 96668 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:05:36,547 INFO 96668 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:05:36,569 INFO 96668 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:07:03,472 INFO 96781 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:07:03,742 INFO 96781 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:07:03,742 INFO 96781 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:07:03,766 INFO 96781 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:07:03,788 INFO 96781 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:07:03,810 INFO 96781 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:07:03,832 INFO 96781 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:07:03,854 INFO 96781 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:09:11,333 INFO 96968 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:09:12,588 INFO 96968 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:09:12,589 INFO 96968 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:09:12,613 INFO 96968 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:09:12,635 INFO 96968 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:09:12,659 INFO 96968 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:09:12,681 INFO 96968 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:09:12,704 INFO 96968 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:12:02,016 INFO 97194 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:12:02,295 INFO 97194 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:12:02,296 INFO 97194 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:12:02,320 INFO 97194 [egg-sequelize](23ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:12:02,342 INFO 97194 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:12:02,364 INFO 97194 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:12:02,386 INFO 97194 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:12:02,409 INFO 97194 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:12:08,419 INFO 97205 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:12:08,740 INFO 97205 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:12:08,741 INFO 97205 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:12:08,765 INFO 97205 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:12:08,788 INFO 97205 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:12:08,811 INFO 97205 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:12:08,833 INFO 97205 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:12:08,855 INFO 97205 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:17:23,069 INFO 97574 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:17:23,346 INFO 97574 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:17:23,347 INFO 97574 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:17:23,371 INFO 97574 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:17:23,394 INFO 97574 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:17:23,418 INFO 97574 [egg-sequelize](23ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:17:23,440 INFO 97574 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:17:23,462 INFO 97574 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:18:13,343 INFO 97633 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:18:13,612 INFO 97633 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:18:13,613 INFO 97633 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:18:13,637 INFO 97633 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:18:13,659 INFO 97633 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:18:13,681 INFO 97633 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:18:13,703 INFO 97633 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:18:13,724 INFO 97633 [egg-sequelize](20ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:21:25,815 INFO 97897 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:21:26,077 INFO 97897 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:21:26,078 INFO 97897 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:21:26,101 INFO 97897 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:21:26,124 INFO 97897 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:21:26,146 INFO 97897 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:21:26,168 INFO 97897 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:21:26,190 INFO 97897 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:24:40,958 INFO 98148 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:24:41,194 INFO 98148 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:24:41,195 INFO 98148 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:24:41,218 INFO 98148 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:24:41,241 INFO 98148 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:24:41,263 INFO 98148 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:24:41,285 INFO 98148 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:24:41,307 INFO 98148 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:25:55,246 INFO 98229 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:25:55,550 INFO 98229 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:25:55,551 INFO 98229 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:25:55,575 INFO 98229 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:25:55,597 INFO 98229 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:25:55,619 INFO 98229 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:25:55,641 INFO 98229 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:25:55,663 INFO 98229 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:26:12,543 INFO 98268 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:26:12,778 INFO 98268 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:26:12,779 INFO 98268 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:26:12,803 INFO 98268 [egg-sequelize](23ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:26:12,825 INFO 98268 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:26:12,847 INFO 98268 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:26:12,869 INFO 98268 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:26:12,891 INFO 98268 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:26:51,986 INFO 98319 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:26:52,226 INFO 98319 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:26:52,227 INFO 98319 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:26:52,250 INFO 98319 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:26:52,273 INFO 98319 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:26:52,296 INFO 98319 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:26:52,318 INFO 98319 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:26:52,340 INFO 98319 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:28:05,744 INFO 98433 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:28:05,981 INFO 98433 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:28:05,982 INFO 98433 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:28:06,006 INFO 98433 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:28:06,028 INFO 98433 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:28:06,050 INFO 98433 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:28:06,072 INFO 98433 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:28:06,093 INFO 98433 [egg-sequelize](20ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:28:10,478 INFO 98433 [egg-sequelize](21ms) Executed (default): SELECT `id`, `name` AS `Name`, `price` AS `Price`, `img` AS `Img`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `shops` AS `shops` ORDER BY `shops`.`id` DESC;
+2019-11-30 11:28:17,700 INFO 98433 [egg-sequelize](21ms) Executed (default): SELECT `id`, `name` AS `Name`, `price` AS `Price`, `img` AS `Img`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `shops` AS `shops` ORDER BY `shops`.`id` DESC;
+2019-11-30 11:29:13,036 INFO 98518 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:29:13,287 INFO 98518 [egg-sequelize](23ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:29:13,287 INFO 98518 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:29:13,312 INFO 98518 [egg-sequelize](23ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:29:13,348 INFO 98518 [egg-sequelize](24ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:29:13,373 INFO 98518 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:29:13,396 INFO 98518 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:29:13,418 INFO 98518 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:31:39,550 INFO 98695 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:31:39,858 INFO 98695 [egg-sequelize](22ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:31:39,859 INFO 98695 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:31:39,914 INFO 98695 [egg-sequelize](53ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:31:39,422 INFO 98518 [egg-sequelize](21ms) Executed (default): SELECT `id`, `name` AS `Name`, `price` AS `Price`, `img` AS `Img`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `shops` AS `shops` ORDER BY `shops`.`id` DESC;
+2019-11-30 11:31:39,962 INFO 98695 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:31:39,984 INFO 98695 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:31:40,008 INFO 98695 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:31:40,031 INFO 98695 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 11:32:13,150 INFO 98733 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 11:32:13,389 INFO 98733 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 11:32:13,389 INFO 98733 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:32:13,413 INFO 98733 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 11:32:13,435 INFO 98733 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:32:13,457 INFO 98733 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 11:32:13,480 INFO 98733 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 11:32:13,501 INFO 98733 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 14:22:21,833 INFO 11358 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 14:22:22,171 INFO 11358 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 14:22:22,172 INFO 11358 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:22:22,196 INFO 11358 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 14:22:22,218 INFO 11358 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:22:22,241 INFO 11358 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 14:22:22,263 INFO 11358 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:22:22,285 INFO 11358 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 14:23:49,654 INFO 11465 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 14:23:49,891 INFO 11465 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 14:23:49,892 INFO 11465 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:23:49,915 INFO 11465 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 14:23:49,938 INFO 11465 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:23:49,960 INFO 11465 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 14:23:49,982 INFO 11465 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:23:50,004 INFO 11465 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`
+2019-11-30 14:57:11,197 INFO 14952 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2019-11-30 14:57:11,548 INFO 14952 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-11-30 14:57:11,549 INFO 14952 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:57:11,572 INFO 14952 [egg-sequelize](22ms) Executed (default): SHOW INDEX FROM `notes` FROM `shops`
+2019-11-30 14:57:11,595 INFO 14952 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:57:11,617 INFO 14952 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `shops` FROM `shops`
+2019-11-30 14:57:11,638 INFO 14952 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2019-11-30 14:57:11,660 INFO 14952 [egg-sequelize](21ms) Executed (default): SHOW INDEX FROM `user` FROM `shops`

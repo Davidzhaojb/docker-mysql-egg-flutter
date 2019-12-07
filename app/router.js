@@ -18,6 +18,8 @@ module.exports = app => {
     router.put('/editnotes', controller.createnotes.edit); // 编辑笔记
     router.get('/deletenote', controller.createnotes.delete); // 删除笔记
     router.get('/api', controller.auth.api);            // 测试
+    router.get('/image', controller.auth.image);            // 测试
+
 
 
 

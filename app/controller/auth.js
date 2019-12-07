@@ -112,6 +112,23 @@ class AuthController extends Controller {
             }
         }
     }
+
+    async image() {
+        const {
+            ctx,
+            service
+        } = this;
+        console.log('ctx',ctx);
+        return ctx.body = {
+            code: 1,
+            msg: 'success',
+            data: [
+                {images1:'http://downloadwebjs.com/other/init_icon.png'},
+                {images2:'http://downloadwebjs.com/other/init_logo.webp'},
+
+            ]
+        }
+    }
 }
 
 module.exports = AuthController;
