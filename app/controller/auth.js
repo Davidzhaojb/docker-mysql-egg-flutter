@@ -123,8 +123,7 @@ class AuthController extends Controller {
             code: 1,
             msg: 'success',
             data: {
-                images1:'http://downloadwebjs.com/other/init_icon.png',
-                images2:'http://downloadwebjs.com/other/init_logo.webp',
+                splash:'http://downloadwebjs.com/other/new_flutter/splash.jpg'
             }
            
         }
