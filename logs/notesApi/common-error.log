@@ -1,0 +1,37 @@
+2020-07-22 11:00:15,352 ERROR 74337 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 74337
+hostname: David-2.local
+
