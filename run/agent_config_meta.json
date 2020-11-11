@@ -1,339 +1,345 @@
 {
-  "keys": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-  "url": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-  "middleware": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
   "security": {
     "csrf": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-      "type": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+      "type": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "protocolWhiteList": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "protocolWhiteList": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "maxAge": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
     }
   },
   "cors": {
-    "allowMethods": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js"
+    "allowMethods": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js"
   },
   "multipart": {
-    "fileSize": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "fileExtensions": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "mode": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "fileExtensions": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "mode": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js"
+      "cron": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "bodyParser": {
-    "jsonLimit": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "formLimit": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "textLimit": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "strict": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "formLimit": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "strict": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "depth": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "depth": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
-    "onerror": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "onerror": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
   "sequelize": {
-    "dialect": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "host": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "username": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "port": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "database": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-    "password": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js"
+    "dialect": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "host": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "username": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "port": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "database": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+    "password": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js"
   },
   "swagger2": {
-    "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
+    "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
     "base": {
       "info": {
-        "description": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-        "version": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-        "title": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
+        "description": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+        "version": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+        "title": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
         "contact": {
-          "email": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js"
+          "email": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js"
         },
         "license": {
-          "name": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-          "url": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js"
+          "name": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+          "url": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js"
         }
       },
-      "tags": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-      "definitions": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
+      "tags": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+      "definitions": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
       "securityDefinitions": {
         "Bearer": {
-          "type": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-          "name": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js",
-          "in": "/Users/david/Desktop/node/docker-mysql-egg-flutter/config/config.default.js"
+          "type": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+          "name": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+          "in": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js"
         }
       },
-      "schemes": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
-      "host": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
-      "basePath": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
-      "consumes": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
-      "produces": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js"
+      "schemes": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
+      "host": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
+      "basePath": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
+      "consumes": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js",
+      "produces": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/config.default.js"
     }
   },
   "session": {
-    "maxAge": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/config.default.js",
+    "type": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/config.default.js"
+    "directory": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.prod.js",
-    "maxFiles": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
-    "maxAge": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.prod.js"
+    "prefix": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
-    "defaultExtension": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view/config/config.default.js"
   },
-  "env": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "name": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "env": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "name": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "keys": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "version": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "description": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "private": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "name": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "version": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "description": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "private": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
     "egg": {
-      "declarations": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "declarations": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "adbkit-apkreader": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "app-info-parser": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-cors": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-mysql": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-sequelize": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-swagger2": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "jsonwebtoken": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "md5": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "mime-types": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "mysql2": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "pump": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "stream-wormhole": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "adbkit-apkreader": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "app-info-parser": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-swagger2": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "md5": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "mime-types": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "pump": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "utility": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "autod": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "utility": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "node": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "stop": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "dev": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "debug": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "test": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "cov": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "lint": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "ci": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "autod": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "start": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "stop": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "dev": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "debug": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "test": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "cov": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "lint": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "ci": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "autod": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "version": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "url": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "type": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "url": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
-    "author": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "license": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "author": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "license": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
   "logger": {
-    "dir": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "env": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "level": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "allowDebugAtProd": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "dir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "env": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "level": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "logging": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "logging": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "port": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "port": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js"
 }

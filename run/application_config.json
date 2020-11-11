@@ -89,28 +89,28 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-session/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-onerror/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-i18n/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-watcher/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-schedule/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-development/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-static/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-view/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-cors/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-sequelize/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/locales",
-        "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config/locales"
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-session/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-jsonp/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-onerror/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-schedule/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-cors/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/locales",
+        "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -121,8 +121,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -157,7 +157,7 @@
         ".ipa"
       ],
       "whitelist": null,
-      "tmpdir": "/var/folders/hp/h1nzrbld2hj6t5qrbk970xfw0000gn/T/egg-multipart-tmp/notesApi",
+      "tmpdir": "/var/folders/6_/f8804f8548jgvf5xzgzrg67m0000gp/T/egg-multipart-tmp/notesApi",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -180,14 +180,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/public",
+      "dir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/app/view",
+      "root": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -199,11 +199,11 @@
     },
     "sequelize": {
       "dialect": "mysql",
-      "database": "shops",
-      "host": "45.249.247.221",
+      "database": "mydatabase",
+      "host": "47.52.117.17",
       "port": 3306,
-      "username": "root",
-      "password": "<String len: 7>"
+      "username": "innovator",
+      "password": "<String len: 16>"
     },
     "swagger2": {
       "base": {
@@ -401,7 +401,7 @@
     },
     "env": "local",
     "name": "notesApi",
-    "keys": "<String len: 27>",
+    "keys": "<String len: 0>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
@@ -466,9 +466,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter",
-    "HOME": "/Users/fullwin",
-    "rundir": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/run",
+    "baseDir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter",
+    "HOME": "/Users/david",
+    "rundir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -500,7 +500,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/logs/notesApi",
+      "dir": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/logs/notesApi",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -569,11 +569,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "url": "127.0.0.1:7001",
-    "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware",
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -595,8 +593,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-session",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -608,8 +606,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-security",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security",
       "version": "2.6.1"
     },
     "jsonp": {
@@ -621,8 +619,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-jsonp",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -634,8 +632,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-onerror",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -645,8 +643,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-i18n",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -656,8 +654,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-watcher",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -667,8 +665,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-schedule",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -680,8 +678,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-multipart",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart",
       "version": "2.9.0"
     },
     "development": {
@@ -695,8 +693,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-development",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -708,8 +706,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-logrotator",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -719,8 +717,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-static",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -730,8 +728,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-view",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-view",
       "version": "2.1.2"
     },
     "cors": {
@@ -741,8 +739,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-cors",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-cors",
       "version": "2.2.0"
     },
     "sequelize": {
@@ -752,8 +750,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-sequelize",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-sequelize",
       "version": "5.2.0"
     },
     "swagger2": {
@@ -763,8 +761,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/config/plugin.js",
-      "path": "/Users/fullwin/Downloads/writtentestApi/docker-mysql-egg-flutter/node_modules/egg-swagger2",
+      "from": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/plugin.js",
+      "path": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-swagger2",
       "version": "1.0.4"
     }
   }

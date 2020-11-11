@@ -103,7 +103,7 @@ class AuthController extends Controller {
             ctx,
             service
         } = this;
-        console.log('ctx',ctx);
+        console.log('ctx', ctx);
         return ctx.body = {
             code: 1,
             msg: 'success',
@@ -118,14 +118,14 @@ class AuthController extends Controller {
             ctx,
             service
         } = this;
-        console.log('ctx',ctx);
+        console.log('ctx', ctx);
         return ctx.body = {
             code: 1,
             msg: 'success',
-            data: {
-                splash:'http://downloadwebjs.com/other/new_flutter/splash.jpg'
-            }
-           
+            data:
+                [{ id: '1', name: 'AA' }, { id: '2', name: 'BB' }, { id: '3', name: 'CC' }, { id: '4', name: 'D' }]
+
+
         }
     }
 }

@@ -64,11 +64,11 @@ module.exports = appInfo => {
             // host: '172.17.0.4',
             // host: '192.168.31.161',
             // username: 'root',
-            host: '129.211.59.88', // 线上服务器
-            username: 'root', // 线上服务器
+            host: '47.52.117.17', // 线上服务器
+            username: 'innovator', // 线上服务器
             port: 3306,
-            database: 'supermall',
-            password: 'Zhaojingbin'
+            database: 'mydatabase',
+            password: 'hqAhTtT3EIHFwO57'
         },
         swagger2: {
             enable: true,

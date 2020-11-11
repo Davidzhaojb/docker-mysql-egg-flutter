@@ -12,3 +12,125 @@
 2019-12-07 11:35:19,233 INFO 12406 [egg:core] dump config after load, 14ms
 2019-12-07 11:35:19,390 INFO 12406 [egg-watcher:application] watcher start success
 2019-12-07 11:35:19,855 INFO 12406 [egg:core] dump config after ready, 3ms
+2020-08-10 12:51:39,792 INFO 27439 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-10 12:51:39,817 INFO 27439 [egg-multipart] stream mode enable
+2020-08-10 12:51:40,215 INFO 27439 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-10 12:51:40,217 INFO 27439 [egg-security] use methodnoallow middleware
+2020-08-10 12:51:40,218 INFO 27439 [egg-security] use noopen middleware
+2020-08-10 12:51:40,219 INFO 27439 [egg-security] use nosniff middleware
+2020-08-10 12:51:40,220 INFO 27439 [egg-security] use xssProtection middleware
+2020-08-10 12:51:40,221 INFO 27439 [egg-security] use xframe middleware
+2020-08-10 12:51:40,222 INFO 27439 [egg-security] use dta middleware
+2020-08-10 12:51:40,222 INFO 27439 [egg-security] compose 6 middlewares into one security middleware
+2020-08-10 12:51:40,239 INFO 27439 [egg:core] dump config after load, 7ms
+2020-08-10 12:51:40,388 INFO 27439 [egg-watcher:application] watcher start success
+2020-08-10 12:51:41,266 INFO 27439 [egg:core] dump config after ready, 10ms
+2020-08-10 13:21:07,144 WARN 27439 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-10 14:11:34,731 INFO 32107 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-10 14:11:34,758 INFO 32107 [egg-multipart] stream mode enable
+2020-08-10 14:11:35,172 INFO 32107 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-10 14:11:35,174 INFO 32107 [egg-security] use methodnoallow middleware
+2020-08-10 14:11:35,176 INFO 32107 [egg-security] use noopen middleware
+2020-08-10 14:11:35,177 INFO 32107 [egg-security] use nosniff middleware
+2020-08-10 14:11:35,178 INFO 32107 [egg-security] use xssProtection middleware
+2020-08-10 14:11:35,179 INFO 32107 [egg-security] use xframe middleware
+2020-08-10 14:11:35,180 INFO 32107 [egg-security] use dta middleware
+2020-08-10 14:11:35,180 INFO 32107 [egg-security] compose 6 middlewares into one security middleware
+2020-08-10 14:11:35,197 INFO 32107 [egg:core] dump config after load, 7ms
+2020-08-10 14:11:35,376 INFO 32107 [egg-watcher:application] watcher start success
+2020-08-10 14:11:35,621 INFO 32107 [egg:core] dump config after ready, 6ms
+2020-08-11 10:56:21,297 INFO 90761 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-11 10:56:21,324 INFO 90761 [egg-multipart] stream mode enable
+2020-08-11 10:56:22,175 INFO 90761 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-11 10:56:22,177 INFO 90761 [egg-security] use methodnoallow middleware
+2020-08-11 10:56:22,178 INFO 90761 [egg-security] use noopen middleware
+2020-08-11 10:56:22,179 INFO 90761 [egg-security] use nosniff middleware
+2020-08-11 10:56:22,179 INFO 90761 [egg-security] use xssProtection middleware
+2020-08-11 10:56:22,180 INFO 90761 [egg-security] use xframe middleware
+2020-08-11 10:56:22,180 INFO 90761 [egg-security] use dta middleware
+2020-08-11 10:56:22,180 INFO 90761 [egg-security] compose 6 middlewares into one security middleware
+2020-08-11 10:56:22,199 INFO 90761 [egg:core] dump config after load, 6ms
+2020-08-11 10:56:22,340 INFO 90761 [egg-watcher:application] watcher start success
+2020-08-11 10:56:22,633 INFO 90761 [egg:core] dump config after ready, 16ms
+2020-08-11 11:56:00,506 WARN 90761 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-11 12:05:24,762 WARN 90761 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-11 12:16:28,257 WARN 90761 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-11 12:23:03,083 WARN 90761 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-11 12:34:33,911 WARN 90761 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-11 13:37:52,934 WARN 90761 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-11 13:37:52,936 WARN 90761 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 16:21:02,034 INFO 74242 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-13 16:21:02,069 INFO 74242 [egg-multipart] stream mode enable
+2020-08-13 16:21:02,602 INFO 74242 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-13 16:21:02,605 INFO 74242 [egg-security] use methodnoallow middleware
+2020-08-13 16:21:02,608 INFO 74242 [egg-security] use noopen middleware
+2020-08-13 16:21:02,609 INFO 74242 [egg-security] use nosniff middleware
+2020-08-13 16:21:02,610 INFO 74242 [egg-security] use xssProtection middleware
+2020-08-13 16:21:02,611 INFO 74242 [egg-security] use xframe middleware
+2020-08-13 16:21:02,612 INFO 74242 [egg-security] use dta middleware
+2020-08-13 16:21:02,612 INFO 74242 [egg-security] compose 6 middlewares into one security middleware
+2020-08-13 16:21:02,628 INFO 74242 [egg:core] dump config after load, 7ms
+2020-08-13 16:21:03,175 INFO 74242 [egg-watcher:application] watcher start success
+2020-08-13 16:21:03,547 INFO 74242 [egg:core] dump config after ready, 8ms
+2020-08-13 16:46:45,015 INFO 76658 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-13 16:46:45,050 INFO 76658 [egg-multipart] stream mode enable
+2020-08-13 16:46:45,732 INFO 76658 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-13 16:46:45,735 INFO 76658 [egg-security] use methodnoallow middleware
+2020-08-13 16:46:45,736 INFO 76658 [egg-security] use noopen middleware
+2020-08-13 16:46:45,737 INFO 76658 [egg-security] use nosniff middleware
+2020-08-13 16:46:45,738 INFO 76658 [egg-security] use xssProtection middleware
+2020-08-13 16:46:45,739 INFO 76658 [egg-security] use xframe middleware
+2020-08-13 16:46:45,739 INFO 76658 [egg-security] use dta middleware
+2020-08-13 16:46:45,739 INFO 76658 [egg-security] compose 6 middlewares into one security middleware
+2020-08-13 16:46:45,758 INFO 76658 [egg:core] dump config after load, 6ms
+2020-08-13 16:46:45,946 INFO 76658 [egg-watcher:application] watcher start success
+2020-08-13 16:46:46,159 INFO 76658 [egg:core] dump config after ready, 6ms
+2020-08-13 16:49:27,431 INFO 76929 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-13 16:49:27,472 INFO 76929 [egg-multipart] stream mode enable
+2020-08-13 16:49:28,152 INFO 76929 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-13 16:49:28,155 INFO 76929 [egg-security] use methodnoallow middleware
+2020-08-13 16:49:28,157 INFO 76929 [egg-security] use noopen middleware
+2020-08-13 16:49:28,158 INFO 76929 [egg-security] use nosniff middleware
+2020-08-13 16:49:28,159 INFO 76929 [egg-security] use xssProtection middleware
+2020-08-13 16:49:28,159 INFO 76929 [egg-security] use xframe middleware
+2020-08-13 16:49:28,160 INFO 76929 [egg-security] use dta middleware
+2020-08-13 16:49:28,160 INFO 76929 [egg-security] compose 6 middlewares into one security middleware
+2020-08-13 16:49:28,177 INFO 76929 [egg:core] dump config after load, 6ms
+2020-08-13 16:49:28,383 INFO 76929 [egg-watcher:application] watcher start success
+2020-08-13 16:49:28,751 INFO 76929 [egg:core] dump config after ready, 11ms
+2020-08-13 20:37:24,925 INFO 85555 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-13 20:37:24,970 INFO 85555 [egg-multipart] stream mode enable
+2020-08-13 20:37:25,907 INFO 85555 [egg-static] starting static serve /public/ -> /Users/david/Desktop/node/docker-mysql-egg-flutter/app/public
+2020-08-13 20:37:25,911 INFO 85555 [egg-security] use methodnoallow middleware
+2020-08-13 20:37:25,912 INFO 85555 [egg-security] use noopen middleware
+2020-08-13 20:37:25,913 INFO 85555 [egg-security] use nosniff middleware
+2020-08-13 20:37:25,913 INFO 85555 [egg-security] use xssProtection middleware
+2020-08-13 20:37:25,914 INFO 85555 [egg-security] use xframe middleware
+2020-08-13 20:37:25,914 INFO 85555 [egg-security] use dta middleware
+2020-08-13 20:37:25,914 INFO 85555 [egg-security] compose 6 middlewares into one security middleware
+2020-08-13 20:37:25,930 INFO 85555 [egg:core] dump config after load, 8ms
+2020-08-13 20:37:26,066 INFO 85555 [egg-watcher:application] watcher start success
+2020-08-13 20:38:21,583 INFO 85555 [egg:core] dump config after ready, 8ms
+2020-08-14 00:15:13,095 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-14 02:15:23,198 WARN 85555 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-14 02:15:23,204 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-14 04:15:36,647 WARN 85555 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-14 04:15:36,653 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-14 06:15:57,117 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-14 07:30:09,471 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-14 08:58:30,633 WARN 85555 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-14 08:58:30,635 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-14 09:01:28,509 WARN 85555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-11 17:51:11,676 INFO 91736 [egg:logger] init all loggers with options: {"dir":"/Users/david/Desktop/All/node/docker-mysql-egg-flutter/logs/notesApi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"notesApi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-11 17:51:11,700 INFO 91736 [egg-multipart] stream mode enable
+2020-11-11 17:51:12,128 INFO 91736 [egg-static] starting static serve /public/ -> /Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/public
+2020-11-11 17:51:12,131 INFO 91736 [egg-security] use methodnoallow middleware
+2020-11-11 17:51:12,132 INFO 91736 [egg-security] use noopen middleware
+2020-11-11 17:51:12,132 INFO 91736 [egg-security] use nosniff middleware
+2020-11-11 17:51:12,133 INFO 91736 [egg-security] use xssProtection middleware
+2020-11-11 17:51:12,134 INFO 91736 [egg-security] use xframe middleware
+2020-11-11 17:51:12,135 INFO 91736 [egg-security] use dta middleware
+2020-11-11 17:51:12,135 INFO 91736 [egg-security] compose 6 middlewares into one security middleware
+2020-11-11 17:51:12,151 INFO 91736 [egg:core] dump config after load, 7ms
+2020-11-11 17:51:12,270 INFO 91736 [egg-watcher:application] watcher start success
+2020-11-11 17:51:12,522 INFO 91736 [egg:core] dump config after ready, 5ms

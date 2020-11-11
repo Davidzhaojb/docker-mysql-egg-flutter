@@ -35,3 +35,439 @@ original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","
 pid: 74337
 hostname: David-2.local
 
+2020-07-22 11:08:09,162 ERROR 75142 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 75142
+hostname: David-2.local
+
+2020-07-23 09:22:15,001 ERROR 26466 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 26466
+hostname: David-2.local
+
+2020-07-23 09:24:16,090 ERROR 26695 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 26695
+hostname: David-2.local
+
+2020-08-06 16:59:53,560 ERROR 49199 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 49199
+hostname: David-2.local
+
+2020-08-10 09:51:27,766 ERROR 10895 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 10895
+hostname: David-2.local
+
+2020-08-10 10:54:30,393 ERROR 16747 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 16747
+hostname: David-2.local
+
+2020-08-10 11:03:12,825 ERROR 17614 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 17614
+hostname: David-2.local
+
+2020-08-10 11:05:24,035 ERROR 17891 nodejs.SequelizeConnectionError: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Promise.tap.then.catch.err (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:640:36)
+From previous event:
+    at Promise.resolve.retry (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:53)
+    at /Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+original: {"code":"ER_NOT_SUPPORTED_AUTH_MODE","errno":1251,"sqlState":"08004","sqlMessage":"Client does not support authentication protocol requested by server; consider upgrading MySQL client"}
+pid: 17891
+hostname: David-2.local
+
+2020-08-10 13:21:07,141 ERROR 27427 nodejs.ClusterClientNoResponseError: client no response in 1706732ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27427
+hostname: David-2.local
+
+2020-08-11 11:56:00,820 ERROR 90744 nodejs.ClusterClientNoResponseError: client no response in 277499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 90744
+hostname: David-2.local
+
+2020-08-11 12:05:24,762 ERROR 90744 nodejs.ClusterClientNoResponseError: client no response in 543875ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 90744
+hostname: David-2.local
+
+2020-08-11 12:16:28,257 ERROR 90744 nodejs.ClusterClientNoResponseError: client no response in 582685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 90744
+hostname: David-2.local
+
+2020-08-11 12:23:03,083 ERROR 90744 nodejs.ClusterClientNoResponseError: client no response in 354799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 90744
+hostname: David-2.local
+
+2020-08-11 12:34:33,911 ERROR 90744 nodejs.ClusterClientNoResponseError: client no response in 670812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 90744
+hostname: David-2.local
+
+2020-08-11 13:37:53,018 ERROR 90744 nodejs.ClusterClientNoResponseError: client no response in 3757900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 90744
+hostname: David-2.local
+
+2020-08-14 00:15:13,096 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 12346905ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
+2020-08-14 02:15:22,796 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 7209661ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
+2020-08-14 04:15:36,629 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 7213362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
+2020-08-14 06:15:57,121 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 7200598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
+2020-08-14 07:30:09,471 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 4452333ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
+2020-08-14 08:58:30,633 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 5301154ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
+2020-08-14 09:01:28,509 ERROR 85543 nodejs.ClusterClientNoResponseError: client no response in 136922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/david/Desktop/node/docker-mysql-egg-flutter/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 85543
+hostname: David-2.local
+
