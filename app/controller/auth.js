@@ -24,7 +24,6 @@ class AuthController extends Controller {
                 data: ''
             }
         };
-        console.log('密码', service.common.sha1string(pwd));
         const res = await service.dbdo.createUser({
             userName,
             userEmail,

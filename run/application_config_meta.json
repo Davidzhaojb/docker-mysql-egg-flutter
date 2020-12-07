@@ -1,4 +1,7 @@
 {
+  "keys": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+  "url": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
+  "middleware": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
   "security": {
     "csrf": {
       "enable": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/config/config.default.js",
@@ -201,7 +204,6 @@
   },
   "env": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "name": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
-  "keys": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "proxy": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "maxProxyCount": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",
   "protocolHeaders": "/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg/config/config.default.js",

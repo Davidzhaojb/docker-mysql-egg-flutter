@@ -200,10 +200,10 @@
     "sequelize": {
       "dialect": "mysql",
       "database": "mydatabase",
-      "host": "47.52.117.17",
+      "host": "129.211.59.88",
       "port": 3306,
-      "username": "innovator",
-      "password": "<String len: 16>"
+      "username": "root",
+      "password": "<String len: 12>"
     },
     "swagger2": {
       "base": {
@@ -401,7 +401,7 @@
     },
     "env": "local",
     "name": "notesApi",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 27>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
@@ -569,9 +569,11 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "url": "127.0.0.1:7001",
+    "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",

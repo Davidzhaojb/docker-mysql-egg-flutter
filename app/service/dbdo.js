@@ -246,6 +246,29 @@ class DbdoService extends Service {
             ]
         });
     }
+
+
+    // 密码相关
+    /**
+     * @params 添加密码
+     */
+    async createPassword(data) {
+        console.log('data存储的密码', data);
+        return this.ctx.model.Password.create(data);
+    }
+    /**
+    * @params 获取全部密码
+    */
+    async getAllPasswords(where, limit, offset) {
+        return this.ctx.model.Password.findAll({
+            where,
+            limit,
+            offset,
+            'order': [
+                ['id', 'DESC']
+            ]
+        });
+    }
 }
 
 module.exports = DbdoService;

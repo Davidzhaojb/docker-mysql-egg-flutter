@@ -19,11 +19,13 @@ module.exports = app => {
     router.get('/deletenote', controller.createnotes.delete); // 删除笔记
     router.get('/api', controller.auth.api);            // 测试
     router.get('/image', controller.auth.image);            // 测试
+    router.get('/homepagecontent', controller.shophomepage.findshops);  // 获取首页内容
 
+    // 添加密码
+    router.post('/createpassword', controller.createpassword.create);
+    // 查看已保存的账号密码
+    router.get('/getallpassword', controller.createpassword.findList);
 
-
-
-    router.get('/homepagecontent',controller.shophomepage.findshops);  // 获取首页内容
 
 
     // auto

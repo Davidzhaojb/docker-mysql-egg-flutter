@@ -46,3 +46,54 @@
 2020-11-11 17:51:12,535 INFO 91725 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38327467ms at 2020-11-12 04:30:00.002
 2020-11-11 17:51:12,535 INFO 91725 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22127465ms at 2020-11-12 00:00:00.000
 2020-11-11 17:51:12,536 INFO 91725 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22128465ms at 2020-11-12 00:00:01.001
+2020-11-11 21:22:59,887 INFO 2143 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-11 21:22:59,887 INFO 2143 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-11 21:22:59,887 INFO 2143 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-11 21:23:00,753 INFO 2124 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25619252ms at 2020-11-12 04:30:00.005
+2020-11-11 21:23:00,753 INFO 2124 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 9419247ms at 2020-11-12 00:00:00.000
+2020-11-11 21:23:00,754 INFO 2124 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 9420247ms at 2020-11-12 00:00:01.001
+2020-11-14 11:58:40,393 INFO 2354 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-14 11:58:40,393 INFO 2354 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-14 11:58:40,393 INFO 2354 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-14 11:58:41,221 INFO 2345 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59478781ms at 2020-11-15 04:30:00.002
+2020-11-14 11:58:41,221 INFO 2345 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43278779ms at 2020-11-15 00:00:00.000
+2020-11-14 11:58:41,222 INFO 2345 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43279779ms at 2020-11-15 00:00:01.001
+2020-11-14 13:21:30,726 INFO 14299 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-14 13:21:30,726 INFO 14299 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-14 13:21:30,726 INFO 14299 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-14 17:08:46,401 INFO 34134 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-14 17:08:46,401 INFO 34134 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-14 17:08:46,401 INFO 34134 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-14 17:08:47,333 INFO 34119 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40872670ms at 2020-11-15 04:30:00.003
+2020-11-14 17:08:47,334 INFO 34119 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24672666ms at 2020-11-15 00:00:00.000
+2020-11-14 17:08:47,334 INFO 34119 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24673666ms at 2020-11-15 00:00:01.000
+2020-11-14 18:56:16,162 INFO 48857 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-14 18:56:16,162 INFO 48857 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-14 18:56:16,162 INFO 48857 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-14 19:13:29,922 INFO 51222 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-14 19:13:29,922 INFO 51222 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-14 19:13:29,922 INFO 51222 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-15 14:37:45,757 INFO 3223 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49934246ms at 2020-11-16 04:30:00.003
+2020-11-15 14:37:45,757 INFO 3223 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33734243ms at 2020-11-16 00:00:00.000
+2020-11-15 14:37:45,757 INFO 3223 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33735243ms at 2020-11-16 00:00:01.000
+2020-11-15 14:37:45,002 INFO 3236 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-15 14:37:45,002 INFO 3236 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-15 14:37:45,002 INFO 3236 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-15 15:36:24,814 INFO 4199 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-15 15:36:24,814 INFO 4199 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-15 15:36:24,814 INFO 4199 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-15 15:49:06,404 INFO 4439 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-15 15:49:06,404 INFO 4439 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-15 15:49:06,404 INFO 4439 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-16 18:21:00,999 INFO 15894 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-16 18:21:00,999 INFO 15894 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-16 18:21:00,999 INFO 15894 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-16 18:21:02,301 INFO 15885 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36537702ms at 2020-11-17 04:30:00.003
+2020-11-16 18:21:02,301 INFO 15885 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20337699ms at 2020-11-17 00:00:00.000
+2020-11-16 18:21:02,301 INFO 15885 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20338699ms at 2020-11-17 00:00:01.000
+2020-12-07 14:40:35,472 INFO 16992 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-07 14:40:35,472 INFO 16992 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-07 14:40:35,472 INFO 16992 [egg-schedule]: register schedule /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-07 14:40:36,694 INFO 16985 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49763309ms at 2020-12-08 04:30:00.003
+2020-12-07 14:40:36,694 INFO 16985 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33563306ms at 2020-12-08 00:00:00.000
+2020-12-07 14:40:36,695 INFO 16985 [Timer] /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33564306ms at 2020-12-08 00:00:01.001
