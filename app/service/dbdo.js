@@ -253,7 +253,6 @@ class DbdoService extends Service {
      * @params 添加密码
      */
     async createPassword(data) {
-        console.log('data存储的密码', data);
         return this.ctx.model.Password.create(data);
     }
     /**
@@ -267,6 +266,15 @@ class DbdoService extends Service {
             'order': [
                 ['id', 'DESC']
             ]
+        });
+    }
+    /**
+     * @params 删除密码
+     */
+    async deletePassword(where) {
+        console.log('删除where+++++++++++', where);
+        return this.ctx.model.Password.destroy({
+            where
         });
     }
 }

@@ -25,6 +25,9 @@ module.exports = app => {
     router.post('/createpassword', controller.createpassword.create);
     // 查看已保存的账号密码
     router.get('/getallpassword', controller.createpassword.findList);
+    // 删除密码
+    router.post('/deletepassword', controller.createpassword.delete);
+
 
 
 

@@ -190,3 +190,326 @@
 2020-12-07 14:40:36,579 INFO 16992 [egg-sequelize](38ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
 2020-12-07 14:40:36,620 INFO 16992 [egg-sequelize](40ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
 2020-12-07 14:40:36,679 INFO 16992 [egg-sequelize](57ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 16:17:07,718 INFO 16992 [egg-sequelize](108ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 16:23:09,201 INFO 16992 [egg-sequelize](62ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:26:03,681 INFO 16992 [egg-sequelize](120ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 16:27:16,284 INFO 16992 [egg-sequelize](124ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 16:38:51,514 INFO 16992 [egg-sequelize](45ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:41:19,501 INFO 16992 [egg-sequelize](37ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:41:48,090 INFO 16992 [egg-sequelize](44ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:42:17,823 INFO 16992 [egg-sequelize](39ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:42:39,504 INFO 16992 [egg-sequelize](42ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:50:58,595 INFO 16992 [egg-sequelize](38ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:53:11,639 INFO 16992 [egg-sequelize](34ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:53:21,666 INFO 16992 [egg-sequelize](49ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:53:37,950 INFO 16992 [egg-sequelize](33ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:53:55,577 INFO 16992 [egg-sequelize](32ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:54:31,446 INFO 16992 [egg-sequelize](42ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:54:55,204 INFO 16992 [egg-sequelize](125ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:55:44,940 INFO 16992 [egg-sequelize](35ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:56:35,181 INFO 16992 [egg-sequelize](63ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:56:47,129 INFO 16992 [egg-sequelize](39ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:57:14,653 INFO 16992 [egg-sequelize](49ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:57:45,168 INFO 16992 [egg-sequelize](31ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:58:48,243 INFO 16992 [egg-sequelize](42ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 16:59:45,760 INFO 16992 [egg-sequelize](35ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:00:39,901 INFO 16992 [egg-sequelize](35ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:03:11,250 INFO 16992 [egg-sequelize](37ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:04:06,047 INFO 16992 [egg-sequelize](32ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:04:22,396 INFO 16992 [egg-sequelize](47ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:18:16,532 INFO 32871 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:18:16,967 INFO 32871 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:18:16,967 INFO 32871 [egg-sequelize](35ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:18:17,008 INFO 32871 [egg-sequelize](35ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:18:17,048 INFO 32871 [egg-sequelize](34ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:18:17,086 INFO 32871 [egg-sequelize](34ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:18:17,155 INFO 32871 [egg-sequelize](37ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:18:17,191 INFO 32871 [egg-sequelize](34ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:18:17,229 INFO 32871 [egg-sequelize](35ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:18:17,263 INFO 32871 [egg-sequelize](32ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:30:00,169 INFO 34596 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:30:00,613 INFO 34596 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:30:00,622 INFO 34596 [egg-sequelize](38ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:30:00,671 INFO 34596 [egg-sequelize](38ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:30:00,739 INFO 34596 [egg-sequelize](61ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:30:00,777 INFO 34596 [egg-sequelize](36ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:30:00,835 INFO 34596 [egg-sequelize](52ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:30:00,880 INFO 34596 [egg-sequelize](42ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:30:00,920 INFO 34596 [egg-sequelize](38ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:30:00,975 INFO 34596 [egg-sequelize](52ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:30:18,922 INFO 34596 [egg-sequelize](38ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:30:24,591 ERROR 34596 [-/127.0.0.1/-/57ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deleteNotes (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:64:37)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:58:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 34596
+hostname: David-2.local
+
+2020-12-07 17:30:47,351 ERROR 34596 [-/127.0.0.1/-/2ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deleteNotes (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:64:37)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:58:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 34596
+hostname: David-2.local
+
+2020-12-07 17:33:46,163 INFO 35173 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:33:46,741 INFO 35173 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:33:46,744 INFO 35173 [egg-sequelize](39ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:33:46,800 INFO 35173 [egg-sequelize](54ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:33:46,842 INFO 35173 [egg-sequelize](38ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:33:46,881 INFO 35173 [egg-sequelize](37ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:33:46,943 INFO 35173 [egg-sequelize](60ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:33:46,984 INFO 35173 [egg-sequelize](37ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:33:47,035 INFO 35173 [egg-sequelize](48ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:33:47,089 INFO 35173 [egg-sequelize](52ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:33:59,071 INFO 35173 [egg-sequelize](38ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:34:04,689 ERROR 35173 [-/127.0.0.1/-/15ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deletePassword (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:277:40)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:58:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 35173
+hostname: David-2.local
+
+2020-12-07 17:34:50,987 INFO 35351 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:34:51,447 INFO 35351 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:34:51,493 INFO 35351 [egg-sequelize](71ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:34:51,560 INFO 35351 [egg-sequelize](36ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:34:51,600 INFO 35351 [egg-sequelize](35ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:34:51,647 INFO 35351 [egg-sequelize](45ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:34:51,702 INFO 35351 [egg-sequelize](46ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:34:51,740 INFO 35351 [egg-sequelize](35ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:34:51,791 INFO 35351 [egg-sequelize](46ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:34:51,842 INFO 35351 [egg-sequelize](49ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:35:09,751 INFO 35421 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:35:10,249 INFO 35421 [egg-sequelize](47ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:35:10,252 INFO 35421 [egg-sequelize](44ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:35:10,292 INFO 35421 [egg-sequelize](38ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:35:10,343 INFO 35421 [egg-sequelize](49ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:35:10,389 INFO 35421 [egg-sequelize](39ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:35:10,436 INFO 35421 [egg-sequelize](45ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:35:10,514 INFO 35421 [egg-sequelize](77ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:35:10,557 INFO 35421 [egg-sequelize](39ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:35:10,596 INFO 35421 [egg-sequelize](37ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:35:24,858 ERROR 35421 [-/127.0.0.1/-/30ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deletePassword (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:277:40)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:60:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 35421
+hostname: David-2.local
+
+2020-12-07 17:36:09,731 INFO 35583 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:36:10,191 INFO 35583 [egg-sequelize](41ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:36:10,192 INFO 35583 [egg-sequelize](41ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:36:10,238 INFO 35583 [egg-sequelize](44ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:36:10,286 INFO 35583 [egg-sequelize](42ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:36:10,324 INFO 35583 [egg-sequelize](36ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:36:10,375 INFO 35583 [egg-sequelize](48ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:36:10,414 INFO 35583 [egg-sequelize](35ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:36:10,453 INFO 35583 [egg-sequelize](35ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:36:10,496 INFO 35583 [egg-sequelize](41ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:36:13,348 ERROR 35583 [-/127.0.0.1/-/32ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deletePassword (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:277:40)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:61:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 35583
+hostname: David-2.local
+
+2020-12-07 17:40:01,103 INFO 36182 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:40:01,512 INFO 36182 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:40:01,561 INFO 36182 [egg-sequelize](69ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:01,609 INFO 36182 [egg-sequelize](44ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:40:01,660 INFO 36182 [egg-sequelize](43ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:01,705 INFO 36182 [egg-sequelize](39ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:40:01,747 INFO 36182 [egg-sequelize](40ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:01,815 INFO 36182 [egg-sequelize](63ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:40:01,856 INFO 36182 [egg-sequelize](38ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:01,918 INFO 36182 [egg-sequelize](55ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:40:07,742 INFO 36182 [egg-sequelize](40ms) Executed (default): DELETE FROM `password` WHERE `id` = 3
+2020-12-07 17:40:49,178 INFO 36326 swagger-ui url:http://127.0.0.1:7001/public/swagger/index.html
+2020-12-07 17:40:49,732 INFO 36326 [egg-sequelize](69ms) Executed (default): SELECT 1+1 AS result
+2020-12-07 17:40:49,734 INFO 36326 [egg-sequelize](64ms) Executed (default): CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER auto_increment , `notes_title` VARCHAR(15), `notes_subtitle` VARCHAR(15), `notes_content` TEXT, `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:49,775 INFO 36326 [egg-sequelize](39ms) Executed (default): SHOW INDEX FROM `notes` FROM `mydatabase`
+2020-12-07 17:40:49,818 INFO 36326 [egg-sequelize](39ms) Executed (default): CREATE TABLE IF NOT EXISTS `password` (`id` INTEGER auto_increment , `user_name` VARCHAR(15), `pass_word` VARCHAR(15), `web_site` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:49,859 INFO 36326 [egg-sequelize](39ms) Executed (default): SHOW INDEX FROM `password` FROM `mydatabase`
+2020-12-07 17:40:49,908 INFO 36326 [egg-sequelize](47ms) Executed (default): CREATE TABLE IF NOT EXISTS `shops` (`id` INTEGER auto_increment , `name` VARCHAR(15), `price` VARCHAR(15), `img` VARCHAR(15), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:49,949 INFO 36326 [egg-sequelize](40ms) Executed (default): SHOW INDEX FROM `shops` FROM `mydatabase`
+2020-12-07 17:40:49,994 INFO 36326 [egg-sequelize](41ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER auto_increment , `user_name` VARCHAR(30), `user_email` VARCHAR(40), `avatar` VARCHAR(40), `pwd` VARCHAR(40), `token` VARCHAR(700), `created_time` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-12-07 17:40:50,037 INFO 36326 [egg-sequelize](41ms) Executed (default): SHOW INDEX FROM `user` FROM `mydatabase`
+2020-12-07 17:57:13,842 INFO 36326 [egg-sequelize](45ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 17:57:17,949 INFO 36326 [egg-sequelize](842ms) Executed (default): DELETE FROM `password` WHERE `id` = 2
+2020-12-07 18:00:44,149 INFO 36326 [egg-sequelize](39ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 18:03:06,903 INFO 36326 [egg-sequelize](92ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 18:29:28,362 INFO 36326 [egg-sequelize](84ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 18:29:34,748 INFO 36326 [egg-sequelize](43ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 18:29:37,947 INFO 36326 [egg-sequelize](39ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 18:29:41,849 INFO 36326 [egg-sequelize](51ms) Executed (default): INSERT INTO `password` (`id`,`user_name`,`pass_word`,`web_site`,`created_time`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?);
+2020-12-07 18:30:00,848 INFO 36326 [egg-sequelize](40ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 18:30:12,894 INFO 36326 [egg-sequelize](52ms) Executed (default): DELETE FROM `password` WHERE `id` = 8
+2020-12-07 18:30:12,975 INFO 36326 [egg-sequelize](47ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;
+2020-12-07 18:30:15,873 INFO 36326 [egg-sequelize](68ms) Executed (default): DELETE FROM `password` WHERE `id` = 7
+2020-12-07 18:30:15,931 INFO 36326 [egg-sequelize](40ms) Executed (default): SELECT `id`, `user_name` AS `userName`, `pass_word` AS `passWord`, `web_site` AS `webSite`, `created_time` AS `createdTime`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `password` AS `password` ORDER BY `password`.`id` DESC;

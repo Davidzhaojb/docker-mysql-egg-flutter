@@ -28,7 +28,7 @@ class CreatePasswordController extends Controller {
         }
     }
     /**
-    * @params 查询列表
+    * @params 查询密码列表
     */
     async findList() {
         const {
@@ -42,6 +42,34 @@ class CreatePasswordController extends Controller {
             code: 1,
             msg: '获取所有密码列表成功',
             data: candidates
+        }
+    }
+    /**
+    * @params 删除某一个
+    */
+    async delete() {
+        const {
+            ctx,
+            service,
+        } = this;
+        const {
+            id
+        } = ctx.request.body;
+        const deleteresult = await service.dbdo.deletePassword({
+            id
+        });
+        if (deleteresult) {
+            return ctx.body = {
+                code: 1,
+                msg: '删除密码成功',
+                data: ''
+            }
+        } else {
+            return ctx.body = {
+                code: 0,
+                msg: '数据库未找到或删除失败',
+                data: ''
+            }
         }
     }
 }

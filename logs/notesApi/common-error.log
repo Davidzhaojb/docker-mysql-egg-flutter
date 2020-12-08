@@ -471,3 +471,203 @@ name: "ClusterClientNoResponseError"
 pid: 85543
 hostname: David-2.local
 
+2020-12-07 17:30:24,541 ERROR 34596 [-/127.0.0.1/-/57ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deleteNotes (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:64:37)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:58:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 34596
+hostname: David-2.local
+
+2020-12-07 17:30:47,336 ERROR 34596 [-/127.0.0.1/-/2ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deleteNotes (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:64:37)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:58:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 34596
+hostname: David-2.local
+
+2020-12-07 17:34:04,669 ERROR 35173 [-/127.0.0.1/-/15ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deletePassword (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:277:40)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:58:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 35173
+hostname: David-2.local
+
+2020-12-07 17:35:24,842 ERROR 35421 [-/127.0.0.1/-/30ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deletePassword (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:277:40)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:60:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 35421
+hostname: David-2.local
+
+2020-12-07 17:36:13,346 ERROR 35583 [-/127.0.0.1/-/32ms POST /deletepassword] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/dialects/mysql/query-generator.js:293:18)
+    at QueryInterface.bulkDelete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/query-interface.js:1113:27)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2946:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.destroy (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/sequelize/lib/model.js:2929:8)
+    at DbdoService.deletePassword (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/service/dbdo.js:277:40)
+    at CreatePasswordController.delete (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/app/controller/createpassword.js:61:49)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:45:18)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:44:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/david/Desktop/All/node/docker-mysql-egg-flutter/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 35583
+hostname: David-2.local
+
