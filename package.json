@@ -15,7 +15,7 @@
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^5.0.0",
     "egg-swagger2": "^1.0.4",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "md5": "^2.2.1",
     "mime-types": "^2.1.24",
     "mysql2": "^1.6.5",
